@@ -17,7 +17,7 @@ Zuerst ist mir aufgefallen das mein Composer verschwunden ist. Der war ursprüng
 
     System Policy: deny file-write-create /System/Library/barracudavpn
 
- ... klingt nach Rechteproblem ... aber selbst als Root darf man dort nicht schreiben. Ein sudo mkdir /System/Library/barracudavpn sagt nur "Operation not permitted". Grund ist eine Neuerung in Mac OSX 10.11. die System Integrity Protection oder rootless genannt wird. 
+ ... klingt nach Rechteproblem ... aber selbst als Root darf man dort nicht schreiben. Ein sudo mkdir /System/Library/barracudavpn sagt nur "Operation not permitted". Grund ist eine Neuerung in Mac OSX 10.11. die System Integrity Protection oder rootless genannt wird.
 
 Rootless schützt wichtige Verzeichnisse vor Schreibzugriffen, unter anderem /System/Library, /usr oder /bin ... grundsätzlich ein guter Plan ... nur nicht wenn der VPN-Client noch nicht mit El Capitan kompatibel ist.
 
@@ -26,9 +26,6 @@ Als Quickfix kann man den System Integrity Check deaktivieren, dazu muss man bei
 Eine nicht besonders schöne Lösung, aber bis Barracuda seinen VPN-Client für 10.11. fit macht, wohl die einzige.
 
 Links:
-* https://www.quora.com/How-do-I-turn-off-the-rootless-in-OS-X-El-Capitan-10-11
-* http://arstechnica.com/apple/2015/06/preview-os-x-el-capitans-first-beta-is-a-promising-heap-of-refinements/4/
 
-
-
-
+- https://www.quora.com/How-do-I-turn-off-the-rootless-in-OS-X-El-Capitan-10-11
+- http://arstechnica.com/apple/2015/06/preview-os-x-el-capitans-first-beta-is-a-promising-heap-of-refinements/4/

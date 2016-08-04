@@ -5,14 +5,15 @@ date: 2016-07-06 09:14:57
 author: Jakob
 ---
 Jeder Entwickler kennt die Situation; man muss Änderungen in einem fremden Projekt vornehmen, findet aber eine unschöne Code-Basis vor:
-* Tabs und Spaces sind gemischt
-* Der Code Style ist inkonsistent
-* DocBlocks sind eine Seltenheit
-* Es sind keine Tests vorhanden 
-* Im VCS wurden keine Versionen getagged
+
+- Tabs und Spaces sind gemischt
+- Der Code Style ist inkonsistent
+- DocBlocks sind eine Seltenheit
+- Es sind keine Tests vorhanden
+- Im VCS wurden keine Versionen getagged
 
 Bei dieser Ausgangsbasis würde man das Projekt am liebsten erst gar nicht angreifen.
-![](http://i.imgur.com/J1svNp7.jpg) 
+![](http://i.imgur.com/J1svNp7.jpg)
 Nach einigen Jahren Entwicklung an unserer Core-Library (PHP), ist diese genau zu so einem Projekt geworden. Man vermeidet so weit wie möglich Änderungen, weil die Folgen oft unabsehbar sind.
 
 Um unsere Entwicklung wieder angenehmer zu machen, musste also ein neues Konzept her. Wir entschieden uns, unsere Kernkomponenten in Composer-Packages aufzuteilen, um in Zukunft flexibler zu sein (und um unsere WTFs/minute zu reduzieren 😉 ).
