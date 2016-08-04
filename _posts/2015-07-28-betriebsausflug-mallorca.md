@@ -6,6 +6,6 @@ author: fichtl
 ---
 Alle 10 Jahre darf man auch mal einen größeren Betriebsausflug machen ... zum Beispiel nach Mallorca. Einen ausführlichen Reisebericht mit vielen Fotos gibt's im privaten Blog von unserem Gustl zu lesen:
 
-[www.golser.info/a/karriereat-betriebsausflug-mallorca](http://www.golser.info/a/karriereat-betriebsausflug-mallorca)
+[karriere.at Betriebsausflug 2015: Wir machten Malle unsicher!](http://www.golser.info/a/karriereat-betriebsausflug-mallorca)
 
 ![](/assets/images/betriebsausflug-mallorca/Bildschirmfoto 2015-07-28 um 07.59.53.png)
