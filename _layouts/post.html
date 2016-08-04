@@ -6,10 +6,15 @@ post_class: post-template
 ---
 
 <header class="main-header post-head {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
-    <nav class="main-nav {% if page.cover %} overlay {% endif %} clearfix">
+    <nav class="main-nav overlay clearfix">
         <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
         <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
     </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">{{ site.name }}</h1>
+        </div>
+    </div>
 </header>
 
 <main class="content" role="main">
@@ -19,6 +24,7 @@ post_class: post-template
         <header class="post-header">
             <h1 class="post-title">{{ page.title }}</h1>
             <section class="post-meta">
+                <span class="post-author">{{ page.author }}</span>
                 <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
                 {% if page.categories.size > 0 %}
                     {{ page.categories | array_to_sentence_string | prepend: 'on ' }}
@@ -84,5 +90,34 @@ post_class: post-template
         </footer>
 
     </article>
+
+    {% assign morePostCount = 0 %}
+    {% for post in site.posts %}
+      {% if post.date < page.date %}
+      {% if morePostCount < 3 %}
+          <article class="post">
+              <header class="post-header">
+                  <h4 class="post-title-small"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+              </header>
+              <!-- <section class="post-excerpt">
+                  {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">read on &raquo;</a>
+              </section> -->
+              <footer class="post-meta post-meta-list">
+                  {% if post.author %}
+                      {{ post.author }}
+                  {% endif %}
+                  {% if post.categories.size > 0 %}
+                      {{ post.categories | array_to_sentence_string | prepend: 'on ' }}
+                  {% endif %}
+                  <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
+                      {{ post.date | date_to_string }}
+                  </time>
+              </footer>
+          </article>
+
+          {% assign morePostCount = morePostCount | plus: 1 %}
+      {% endif %}
+      {% endif %}
+    {% endfor %}
 
 </main>
