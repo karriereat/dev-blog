@@ -2,7 +2,7 @@ name: dev-blog
 description: "[karriere.at](http://www.karriere.at) developer blog. Blogging about hacking and science."
 meta_description: karriere.at developer blog. Blogging about hacking and science.
 
-permalink:          /:year/:month/:day/:title # Post permalink
+permalink:          /a/:title # Post permalink
 timezone:           Europe/Vienna
 
 markdown: kramdown
