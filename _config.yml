@@ -10,7 +10,7 @@ kramdown:
     input: GFM
 logo: false
 paginate: 30
-baseurl: /
+baseurl: ''
 domain_name: 'http://dev.karriere.at'
 google_analytics: 'UA-237751-17'
 gems:
