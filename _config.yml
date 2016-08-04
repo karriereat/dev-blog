@@ -7,12 +7,12 @@ timezone:           Europe/Vienna
 
 markdown: kramdown
 kramdown:
-    input:          GFM
+    input: GFM
 logo: false
 paginate: 30
 baseurl: /
 domain_name: 'http://dev.karriere.at'
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-237751-13'
 gems:
   - jekyll-paginate
 
