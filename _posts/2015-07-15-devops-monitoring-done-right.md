@@ -12,5 +12,5 @@ Nun helfen uns 2 Mega-Monitore bei der Überwachung unserer Systeme. Was genau w
 - Kibana für Performance Monitoring
 - und Sentry zur Überwachung von Fehlern
 
-![](//kcdn.at/dev-blog/images/devops-monitoring-done-right/IMG_20150715_110237.jpg)
+![](/assets/images/devops-monitoring-done-right/IMG_20150715_110237.jpg)
 

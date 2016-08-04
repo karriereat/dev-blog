@@ -15,7 +15,7 @@ Um diese Analysen machen zu können, verbringe ich viel Zeit in der __Datenbank_
 Der wohl wichtigste Kernbereich von karriere.at ist die Suche, wobei wir zwei verschiedene Bereiche im Einsatz haben. Einerseits gibt es natürlich die __Jobsuche__ für Bewerber. Wir stellen aber auch für Arbeitgeber eine __Bewerbersuche__ und ein __Bewerbermatching__ zur Verfügung, um das Auffinden von Kandidaten für Firmen zu vereinfachen.
 <!--more-->
 An eine Suche wird ein ähnlich hoher Anspruch gestellt, wie wir es mittlerweile von Google, Amazon & Co. gewohnt sind. Diese Suchmaschinen liefern scheinbar intuitiv die perfekten Treffer, selbst für die unmöglichsten Suchbegriffe. Mittlerweile haben sich Web User daran gewöhnt, alles schnell und einfach googeln zu können. Deswegen wird erwartet, dass auch unsere Jobsuche __perfekte Ergebnisse__ liefert. Auch wenn sich die Thematik simpel anhört, steht dahinter eine ausgeklügelte Suchlogik, die viel mehr leisten muss, als es auf den ersten Blick scheint.
-![](//kcdn.at/dev-blog/images/product-engineer/jobsuche.png)
+![](/assets/images/product-engineer/jobsuche.png)
 ## Ontologie und Semantic Search
 Bei karriere.at setzen wir eine solide Ontologie in Kombination mit einer intelligenten Logik für die "Semantische Suche" ein.
 <!--more-->

@@ -20,4 +20,4 @@ Vielen Dank noch einmal an die Organisation der Konferenz - nächstes Jahr bitte
 
 Mehr Spass und ein Haufen Tweets zur Keynote auf [k94n.com](https://k94n.com/a-loosely-coupled-front-end). 
 
-![](//kcdn.at/dev-blog/images/a-loosely-coupled-front-end/wad.001.png)
+![](/assets/images/a-loosely-coupled-front-end/wad.001.png)

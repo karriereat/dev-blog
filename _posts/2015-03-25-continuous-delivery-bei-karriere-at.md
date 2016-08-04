@@ -22,7 +22,7 @@ Code Reviews durchzuführen.
 * Jenkins: Um Änderungen zu testen und diese auf Test, Staging oder Production zu verteilen.
 
 # Coding & Code-Review
-![](//kcdn.at/dev-blog/images/continuous-delivery-bei-karriere-at/gitlab.png)
+![](/assets/images/continuous-delivery-bei-karriere-at/gitlab.png)
 Abbildung: Gitlab Activity Stream
 
 Für jede Änderung am Code wird bei uns ein Bugfix- oder Feature-Branch vom Master weg erstellt und man beginnt zu entwickeln. Auf dem erstellten Branch können einzelne oder mehrere Team-Mitglieder arbeiten, ohne dass dadurch der Master-Branch "dirty" wird. 
@@ -33,7 +33,7 @@ Ist der Reviewer mit allen Änderungen zufrieden, akzeptiert er den Merge-Reques
 
 # Testing, Staging & Live Deployment
 
-![](//kcdn.at/dev-blog/images/continuous-delivery-bei-karriere-at/Übersicht_Jenkins.png) Abbildung: Übersicht aller Jenkins-Deploys
+![](/assets/images/continuous-delivery-bei-karriere-at/Übersicht_Jenkins.png) Abbildung: Übersicht aller Jenkins-Deploys
 
 Der Master-Branch, aber auch ein Feature- und Bugfix-Branch, kann mittels Jenkins auf Test-Servern bereitgestellt werden, die den selben Stack wie unsere Live-Server aufweisen. Hier wird die gesamte Codebase neu geklont und alle unsere Assets neu erstellt. Es werden Javascript-Files zusammengefügt und komprimiert, Less-Files kompiliert, Webfonts erstellt und Tests durchgeführt.
 

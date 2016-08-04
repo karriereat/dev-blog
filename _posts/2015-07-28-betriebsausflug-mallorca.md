@@ -8,4 +8,4 @@ Alle 10 Jahre darf man auch mal einen größeren Betriebsausflug machen ... zum 
 
 http://www.golser.info/karriereat-betriebsausflug-mallorca-13062015
 
-![](//kcdn.at/dev-blog/images/betriebsausflug-mallorca/Bildschirmfoto 2015-07-28 um 07.59.53.png)
+![](/assets/images/betriebsausflug-mallorca/Bildschirmfoto 2015-07-28 um 07.59.53.png)

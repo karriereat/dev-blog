@@ -8,12 +8,12 @@ Letzte Woche wurde beim ersten DEVLAND an der FH Hagenberg fleissig gespielt, ge
 
 <!--more-->
 
-![](//kcdn.at/dev-blog/images/devland-hagenberg/1.jpg)
+![](/assets/images/devland-hagenberg/1.jpg)
 
-![](//kcdn.at/dev-blog/images/devland-hagenberg/IMG_0399.jpg) 
+![](/assets/images/devland-hagenberg/IMG_0399.jpg) 
 
-![](//kcdn.at/dev-blog/images/devland-hagenberg/IMG_0397.jpg)
+![](/assets/images/devland-hagenberg/IMG_0397.jpg)
 
-![](//kcdn.at/dev-blog/images/devland-hagenberg/7.jpg)
+![](/assets/images/devland-hagenberg/7.jpg)
 
-![](//kcdn.at/dev-blog/images/devland-hagenberg/IMG_0389.jpg)
+![](/assets/images/devland-hagenberg/IMG_0389.jpg)

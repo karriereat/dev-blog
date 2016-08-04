@@ -13,7 +13,7 @@ Zwei Beispiele dazu:
 
 <strong>SEO funktioniert auf lange Sicht nur, wenn an allen 3 Bereichen gearbeitet wird.</strong>
 
-![](//kcdn.at/dev-blog/images/seo-bei-karriereat/seo-saeulen.png)
+![](/assets/images/seo-bei-karriereat/seo-saeulen.png)
 
 # DEV / UX
 Unter diesen Bereich fallen alle technischen Themen, die mit einem Webauftritt in Verbindung stehen. Ob der Bereich User Experience auch unter Entwicklung fällt, kann man diskutieren. Bei uns gehört UX in die Entwicklung, da wir uns hier darum kümmern, dass unsere Webseiten mega schnell und UX Kennzahlen wie Bounce Rate, Seitenaufrufe / Besucher usw. überwacht und optimiert werden.
@@ -29,7 +29,7 @@ Ohne externe Links funktioniert SEO leider immer noch nicht. Aber irgendwie mach
 
 Im allerbesten Fall entstehen alle externen Links durch andere Webmaster, die freiwillig auf die eigene Webseite verlinken, da sie dadurch einen Mehrwert für dessen Besucher sehen.
 
-![](//kcdn.at/dev-blog/images/seo-bei-karriereat/wertvoller-link.png)
+![](/assets/images/seo-bei-karriereat/wertvoller-link.png)
 
 ## Interne Links
 Zu internen Links gibt es drei wichtige Regeln:

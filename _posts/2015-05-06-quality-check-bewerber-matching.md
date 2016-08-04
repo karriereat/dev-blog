@@ -23,7 +23,7 @@ Letztendlich ist es doch ziemlich subjektiv, ob ein Kandidat nun zum Jobinserat 
 
 Unser DEV Team hat ein Tool gebaut, das in etwa so aussieht wie das Matching in der talent.cloud. Zusätzlich kann auf einer Skala von 1 (perfekt passend) bis 4 (passt überhaupt nicht) und einem Kommentarfeld eine Bewertung abgegeben werden. Während eines Tests werden 5 Jobinserate mit jeweils 5 Bewerbern angezeigt. Neben den Einzelbewertungen für die 5 Bewerber wird auch eine Bewertung des Ersteindrucks und des Abschlusseindrucks vorgenommen.
 
-![](//kcdn.at/dev-blog/images/quality-check-bewerber-matching/matching-test-tool.png)
+![](/assets/images/quality-check-bewerber-matching/matching-test-tool.png)
 
 Getestet wurde in 3 Testgruppen, wobei 5 Jobinserate zu jeder Gruppe zugeteilt wurden. Dazu wurde zuerst eine größere Menge an Jobs zufällig vorgefiltert. Aus diesen Jobs wurden dann jene Inserate ausgewählt, bei denen ein Qualitäts Check interessant erschien.
 
@@ -33,7 +33,7 @@ Für die Durchführung des Tests haben sich viele [Mitarbeiter von karriere.at](
 
 Da Jobs vom Assistenten bis zum Abteilungsleiter getestet wurden, die in verschiedenen Berufsfeldern angesiedelt sind, haben wir zunächst mit ziemlich unterschiedlichen Bewertungen gerechnet. Tatsächlich hat sich aber eine __relativ gleichmäßige Durchschnittsbewertung__ ergeben. Daraus lässt sich schließen, dass die Menge an Jobs und Testern wohl eine gute Bandbreite abdeckt.
 
-![](//kcdn.at/dev-blog/images/quality-check-bewerber-matching/matching_test_outcome.png)
+![](/assets/images/quality-check-bewerber-matching/matching_test_outcome.png)
 
 Außerdem konnten wir beobachten, dass es sowohl sehr positive als auch strenge Testergebnisse gab. Trotzdem war auch hier innerhalb der 3 Testgruppen ein recht ähnliches Muster zu erkennen, das sich wiederum in ähnlichen Durchschnittswerten pro Gruppe widerspiegelt.
 

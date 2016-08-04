@@ -17,4 +17,4 @@ Für Klassenvariablen von unbekannten Typ werden im PHPStorm keine Vorschläge a
 
 ... der Comment wird vorgeschlagen wenn man über der Zeile /**[SPACE] eingibt.
 
-![](//kcdn.at/dev-blog/images/phpstorm-autosuggest-klassenvariablen/autosuggest.gif)
+![](/assets/images/phpstorm-autosuggest-klassenvariablen/autosuggest.gif)

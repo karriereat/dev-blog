@@ -15,29 +15,29 @@ Für die Kanban-Boards bei karriere.at haben wir das nun auf folgende Art gelös
 
 Zunächst haben wir ein eigenes Select-Feld "Ready to Pull" mit den Werten "Forward" und "Back" erstellt und auf allen relevanten Screens eingeblendet.
 
-![](//kcdn.at/dev-blog/images/pull-prinzip-kanban-jira/readytopull.png)
+![](/assets/images/pull-prinzip-kanban-jira/readytopull.png)
 
 ## Kartenfarben für Status definieren
 
 Um nun visuell auf den Boards anzuzeigen, ob ein Ticket bereit ist gezogen zu werden, verwenden wir die Kartenfarben, die man im Board einstellen kann. Leider verhindert dies, dass man die Kartenfarben dann noch auf eine andere sinnvolle Weise verwenden kann.
 
-![](//kcdn.at/dev-blog/images/pull-prinzip-kanban-jira/jirakanbanboardconfig.png)
+![](/assets/images/pull-prinzip-kanban-jira/jirakanbanboardconfig.png)
 
 ## Transitions definieren
 
 Die hinterlegten Workflows bei den Projekten sind so modifiziert, dass bei jedem Statusübergang, also dann wenn ein Benutzer auf dem Board ein Ticket von einer Spalte in die nächste zieht, das Feld "Ready to Pull" geleert wird und der aktuelle Benutzer als "Assignee" eingetragen wird.
 
-![](//kcdn.at/dev-blog/images/pull-prinzip-kanban-jira/jiratransitionpostfunctions.png)
+![](/assets/images/pull-prinzip-kanban-jira/jiratransitionpostfunctions.png)
 
 ## Scriptrunner
 
 Bis hierher geht alles noch mit Boardmitteln. Allerdings ist das Setzen des Ready-to-Pull-Felds umständlich, weil der Anwender bei einem Ticket jedes Mal den Edit-Dialog aufrufen muss. Das Add-on [Scriptrunner](http://www.adaptavist.com/w/products-plugins/adaptavist-scriptrunner/scriptrunner-for-jira/) ermöglichst es aber seit der Version 4.3 auch sogenannte Script Fragments zu definieren. Im Prinzip klinkt sich das Plugin mit ein paar Hooks im Interface ein und ermöglicht dem Administrator so die Oberfläche an gewissen Stellen um Menüpunkte zu erweitern, die wiederum [Groovy-Scripts](https://de.wikipedia.org/wiki/Groovy) über einen Custom REST-API Endpoint aufrufen. Eine solche Schaltfläche haben wir implementiert um schnell den Ready-to-Pull-Wert zu ändern:
 
-![](//kcdn.at/dev-blog/images/pull-prinzip-kanban-jira/jiraboarddetail.png) ![](//kcdn.at/dev-blog/images/pull-prinzip-kanban-jira/jiraissuedetail.png)
+![](/assets/images/pull-prinzip-kanban-jira/jiraboarddetail.png) ![](/assets/images/pull-prinzip-kanban-jira/jiraissuedetail.png)
 
 Die Menüpunkte werden über ein Script Fragment definiert:
 
-![](//kcdn.at/dev-blog/images/pull-prinzip-kanban-jira/jirawebitemscriptrunner.png)
+![](/assets/images/pull-prinzip-kanban-jira/jirawebitemscriptrunner.png)
 
 Dieses ruft wiederum einen Custom Endpoint auf, der dann den Ready-to-Pull-Wert setzt (Achtung: Es folgt ein grausliches Script):
 

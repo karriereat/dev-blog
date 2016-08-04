@@ -8,7 +8,7 @@ As promised yesterday ... here are the slides of my presentation at #WAD15 about
 
 <!--more-->
 
-[Download](//kcdn.at/dev-blog/images/wearedevelopers-slides/WeAreDevelopers - karriere.at Engineering Culture.pdf)
+[Download](/assets/images/wearedevelopers-slides/WeAreDevelopers - karriere.at Engineering Culture.pdf)
 
 Many of the slides are not really self-explanatory, so here are the most important quotes ...
 

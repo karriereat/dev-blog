@@ -25,4 +25,4 @@ Der neue Technologie-Stack für jobs.at 2.0 ...
 
 ... so geht web!
 
-![](//kcdn.at/dev-blog/images/one-stack-rules/in-your-face.jpg)
+![](/assets/images/one-stack-rules/in-your-face.jpg)

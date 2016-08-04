@@ -27,4 +27,4 @@ Das Projekt ist über mehrere Monate gelaufen. Gerade am Beginn mussten wir eini
 Meiner (natürlich) leicht subjektiven Meinung nach haben wir derzeit die beste und durchgängigste mobile User Experience von allen Jobportalen und die mobilen Inserate waren der letzte Schritt dorthin.
 
 Ein Screenshot sagt mehr als 1000 Worte ...
-![](//kcdn.at/dev-blog/images/mobiles-inserat-check/ios_iPhone-6_8.0_portrait.jpg)
+![](/assets/images/mobiles-inserat-check/ios_iPhone-6_8.0_portrait.jpg)

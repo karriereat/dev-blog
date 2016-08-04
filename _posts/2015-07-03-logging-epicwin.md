@@ -15,7 +15,7 @@ Jedes der Programme hat eine spezielle Aufgabe:
 * [LogStash](https://www.elastic.co/products/logstash) bereitet die Log-Files auf oder fungiert als UDP-Server
 * [Kibana](https://www.elastic.co/products/kibana) bereitet die Daten grafisch auf
 
-![](//kcdn.at/dev-blog/images/logging-epicwin/Bildschirmfoto 2015-07-03 um 10.50.03.png)
+![](/assets/images/logging-epicwin/Bildschirmfoto 2015-07-03 um 10.50.03.png)
 
 ## ELK aber wie?
 
@@ -25,7 +25,7 @@ UDP hat den Vorteil das der Absender nicht auf die Empfangsbestätigung wartet (
 
 Derzeit wird jede Action (inkl. Controller) an LogStash geschickt, ausserdem haben wir die Möglichkeit unterschiedliche Messpunkte pro Controller/Action zu senden. Diese Messpunkte lassen sich mittels Kibana als kombinierter Barchart visualisieren.
 
-![](//kcdn.at/dev-blog/images/logging-epicwin/Bildschirmfoto 2015-07-03 um 10.36.03.png)
+![](/assets/images/logging-epicwin/Bildschirmfoto 2015-07-03 um 10.36.03.png)
 
 ## Warum monitoren?
 

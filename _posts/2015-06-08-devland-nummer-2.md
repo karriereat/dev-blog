@@ -10,4 +10,4 @@ http://www.wearedevelopers.org/
 
 ... ausserdem werde ich ein wenig über Engineering Culture bei karriere.at sprechen und wir haben einen RoundTable zum selben Thema. Es gibt auch wieder das beliebte Retro-Gaming und unsere schönen Developer-Bierdeckel.
 
-![](//kcdn.at/dev-blog/images/devland-nummer-2/IMG_0399.jpg) 
+![](/assets/images/devland-nummer-2/IMG_0399.jpg) 

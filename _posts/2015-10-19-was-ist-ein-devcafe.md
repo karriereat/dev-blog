@@ -35,7 +35,7 @@ Die Themen reichen von Technologien die wir täglich verwenden bis zu Dingen die
 
 ... insgesamt wurden schon 33 DevCafe-Talks gemacht. Die jeweiligen Unterlagen werden danach bei uns im internen Wiki hinterlegt damit man später nochmal nachlesen kann.
 
-![](//kcdn.at/dev-blog/images/was-ist-ein-devcafe/Bildschirmfoto 2015-10-19 um 17.05.29.png)
+![](/assets/images/was-ist-ein-devcafe/Bildschirmfoto 2015-10-19 um 17.05.29.png)
 
 ## Redux
 Alle zwei Wochen war einfach zu oft und immer wieder Pizza essen war jetzt auch nicht so spannend. Wir haben uns dann Hilfe bei der Organisation besorgt und die Frequenz verändert. DevCafes finden jetzt einmal im Monat statt, dafür länger und die Themen kommen aus den Chapters. Das AfterDevCafe wird jetzt von Sandy organisiert, die macht das öfter und sucht immer interessante Themen die wir im Büro oder in der Nähe veranstalten können.
@@ -43,7 +43,7 @@ Alle zwei Wochen war einfach zu oft und immer wieder Pizza essen war jetzt auch 
 ## AfterDevCafe
 Bei den letzten AfterDevCafes waren wir Nachos und Burger essen, wir haben einen Steak-Grillkurs im Büro veranstaltet und haben Bier und ausgefallene Spezialitäten verkostet. Es sollte immer was Neues sein, es sollte einfach umzusetzen sein und es sollte jeder teilnehmen können. Seit dem die AfterDevCafes spezieller sind, nehmen auch mehr Leute teil :)
 
-![](//kcdn.at/dev-blog/images/was-ist-ein-devcafe/IMG_7025.JPG)
+![](/assets/images/was-ist-ein-devcafe/IMG_7025.JPG)
 AfterDevCafe - Grillen für Entwickler
 
 

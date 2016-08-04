@@ -26,7 +26,7 @@ So sieht das grobe Geschäftsmodell aus – was heißt das jetzt für unsere Dev
 
 Fichtl war so freundlich und hat eine Übersicht über alle kleinen und großen Projekte angefertigt. Sie sind grob gruppiert, lassen sich aber nicht immer eindeutig einer der drei Säulen zuordnen. In der vierten Spalte befindet sich interne Software, die bei uns statt zugekaufter CRM- und ERP-Lösungen verwendet wird.
 
-![](//kcdn.at/dev-blog/images/„ihr-habt-ja-diese-homepage…-warum-braucht-ihr-da-so-viele-entwickler-“/homepages.png)
+![](/assets/images/„ihr-habt-ja-diese-homepage…-warum-braucht-ihr-da-so-viele-entwickler-“/homepages.png)
 
 ## Die sichtbare und verborgene Arbeit
 

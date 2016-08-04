@@ -6,7 +6,7 @@ author: wolfgang
 ---
 Bei karriere.at gibt es für das DEV Team immer viel zu tun: Anforderungen kommen aus allen Abteilungen, vorwiegend aus dem Produktmanagement. Bei all den neuen Anforderungen bleibt kaum noch Zeit, sich um technologische Verbesserungen zu kümmern. Ein Update auf eine neuere Java Version bringt nach außen kaum eine sichtbare Verbesserung, ist aber dringend notwendig, um weiterhin eine hervorragende Qualität zu liefern. Deswegen wurde das DEV Team neu strukturiert, wodurch neben anderen Neuerungen ein eigenes Team für unsere Core Services entstanden ist.
 
-![](//kcdn.at/dev-blog/images/introducing-core-services-team/dev_team.png)
+![](/assets/images/introducing-core-services-team/dev_team.png)
 
 <!--more-->
 
@@ -26,7 +26,7 @@ Gleich im Anschluss wollen wir auch die Firmensuche auf Elasticsearch umbauen. D
 
 Für unsere Java Entwickler ist es ein großes Anliegen, alles auf Java 8 zu migrieren. Die Begründung dafür wurde ziemlich klar formuliert, wie man am Titel des Tickets sieht:
 
-![](//kcdn.at/dev-blog/images/introducing-core-services-team/java8.png)
+![](/assets/images/introducing-core-services-team/java8.png)
 
 # Was steht noch am Plan?
 
@@ -50,7 +50,7 @@ Um diese anspruchsvolle Aufgabe für unsere Producer so angenehm wie möglich zu
 ## Kontinuierliche Performance Verbesserung
 Mit Hilfe unseres **ELK Monitorings** können wir unser System in Echtzeit überwachen und sofort eingreifen, wenn etwas schief geht.
 
-![](//kcdn.at/dev-blog/images/introducing-core-services-team/kibana_performance.png)
+![](/assets/images/introducing-core-services-team/kibana_performance.png)
 
 Die Grafik zeigt einen Fall aus jüngster Zeit, bei dem wir morgens einen **Performance Einbruch** beobachten konnten, der uns zwar einige Stunden beschäftigt hat, aber schließlich am Nachmittag gelöst werden konnte.
 

@@ -46,8 +46,8 @@ Dieses kann einfach als 'require-dev' zu einem Package hinzugefügt werden und e
 
 Diese Tests werden außerdem automatisch in Jenkins ausgeführt. Dadurch sieht man sofort, welche Packages Verbesserungsbedarf haben:
 
-![](//kcdn.at/dev-blog/images/php-code-quality/jenkins_packages.png)
-![](//kcdn.at/dev-blog/images/php-code-quality/jenkins_codequality.png)
+![](/assets/images/php-code-quality/jenkins_packages.png)
+![](/assets/images/php-code-quality/jenkins_codequality.png)
 
 ## Fazit
 
