@@ -77,7 +77,7 @@ post_class: post-template
             {% if page.author %}
               {% if site.authors[page.author].img %}
                 <figure class="author-image">
-                  <a class="img" href="{{ site.baseurl }}" style="background-image: url({{site.authors[page.author].img}})">
+                  <span class="img" href="{{ site.baseurl }}" style="background-image: url({{site.authors[page.author].img}})">
                     <span class="hidden">
                       {% if site.authors[page.author].name %}
                         {{ site.authors[page.author].name }}
@@ -85,7 +85,7 @@ post_class: post-template
                         {{ page.author }}
                       {% endif %}'s Picture
                     </span>
-                  </a>
+                  </span>
                 </figure>
               {% endif %}
               <section class="author">

@@ -1,5 +1,5 @@
 name: dev-blog
-description: karriere.at developer blog. Blogging about stuffs
+description: "[karriere.at](http://www.karriere.at) developer blog. Blogging about stuffs"
 meta_description: karriere.at developer blog. Blogging about stuffs
 
 markdown: kramdown
@@ -59,6 +59,7 @@ authors:
     bio: "Leidenschaft spielt in Anitas Leben eine große Rolle. Ihr Motto: Alles, was man mit Liebe macht, wird auch gut: Ob Design, Kochen oder Gemüse-Züchten. Lesen - natürlich in Papierform! - gehört zur Entspannung dazu."
   michael:
     name: Michael
+    bio: "Wenn Michael gefragt wird, was er beruflich macht, sagt er \"Scrum Master\". Wenn er dann in ein fragendes Gesicht blickt, sagt er \"Agile Coach\". Wenn dann die Stirnrunzeln bei seinem Gegenüber noch größer werden, wechselt er das Thema und redet über das Motorradfahren, Tai Chi oder Süßigkeiten."
   sharon:
     name: Sharon
     bio: "Ausdauer zählt zu Sharons größten Stärken. Und die braucht sie auch. Denn bevor bei karriere.at neue Codes zur Anwendung kommen, werden sie von der Gitarre und Tenor-Blockflöte spielenden Entspannungs-Häklerin auf Herz und Nieren geprüft. Steht Sport auf dem Programm, ist ebenfalls Ausdauer gefragt beim Klettern, Radfahren und Schwimmen."
