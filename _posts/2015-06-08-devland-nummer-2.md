@@ -2,7 +2,7 @@
 layout: post
 title: "DEVLAND Nummer 2"
 date: 2015-06-08 14:15:12
-author: Fichtl
+author: fichtl
 ---
 Diesen Donnerstag (11.06.) ist unser DEVLAND auf der WeAreDevelopers in Perchtoldsdorf bei Wien zu Gast.
 

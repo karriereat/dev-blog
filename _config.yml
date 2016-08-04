@@ -1,9 +1,8 @@
 name: dev-blog
 description: karriere.at developer blog. Blogging about stuffs
-meta_description: "karriere.at developer blog. Blogging about stuffs"
+meta_description: karriere.at developer blog. Blogging about stuffs
 
 markdown: kramdown
-highlighter: pygments
 logo: false
 paginate: 30
 baseurl: /
@@ -12,5 +11,63 @@ google_analytics: 'UA-XXXXXXXX-X'
 gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
-url:            'http://dev.karriere.at'
-author:         'karriere.at'
+url: 'http://dev.karriere.at'
+author: 'karriere.at'
+
+# authors object
+authors:
+  fichtl:
+    name: Fichtl
+    bio: "Der bekennende Ursprungsinnviertler Fichtl ist einer der Brains von karriere.at. Wenn er nicht gerade an der Software herumschraubt, sind Bücher und Filme seine Leidenschaft. Legobauen seine Obsession."
+  alex:
+    name: Alex
+    bio: "Dev-Ops Alex studierte an der FH Hagenberg. Bei karriere.at absolvierte er sein Berufspraktikum und beschäftigt sich nun damit wie unsere Entwickler und Server arbeiten. In der Freizeit wird mit Freundin um die Welt gereist. Sogar dann sind Bücher, Kaffee und sein MacBook Air ständige Begleiter."
+  mori:
+    name: Mori
+    bio: "Christian folgt stets seinem Bauchgefühl, und das hat ihn in das Entwicklungsteam von karriere.at geführt. Neben seinem eBusiness Studium versucht er zusätzlich seinen Tag mit Sport zu füllen. Sein Motto: Think big, win the world."
+  fred:
+    name: Fred
+    bio: "Fred macht sein Hobby gerade zum Beruf. Nicht nur bei karriere.at sondern auch in seiner Freizeit bastelt unser Lehrling an Software. Tut er das nicht, produziert der Süd-Niederösterreicher oft Youtube-Videos oder widmet sich dem Elektro-Swing von Parov Stelar."
+  markus:
+    name: Markus
+    bio: "Markus ist Web-Developer Marke Eigenbau. Soll heißen: Er hat sich seine Entwickler-Skills alle selbst beigebracht. Privat wird gekocht, mit Bögen geschossen und gegeocached."
+  lenzi:
+    name: Lenzi
+    bio: "Lenzi ist ein ganz seltsamer Programmierer: Er trinkt keinen Kaffee, musiziert auf ganz analogen Instrumenten, in der Pause greift er schon mal zum Apfel statt zur Zigarette und er geht sogar gern hinaus ans Tageslicht (um beispielsweise Beachvolleyball zu spielen)."
+  guenther:
+    name: Günther
+    bio: "Günther hat schon am Amiga 500 seine ersten BASIC-Programme entwickelt. Ein paar Jahr(zehnt)e später macht er das auch beruflich - in Java. Bei karriere.at kann er seinen Hang zum Optimieren und Perfektionieren voll ausleben. Die nötige Kraft (zum Tippen und Maus bewegen) und Ausdauer (für das lange Sitzen) sammelt er im Fitnesstudio und auf ausgedehnten Mountainbike-Ausflügen"
+  gustl:
+    name: Gustl
+    bio: "Gustl ist Linzer mit Tiroler Wurzeln. Gustl ist Papa, Firmengründer und Webworker. Bei karriere.at ist der Multimedia-Freak Teil des Developer-Teams und bringt etwas Tiroler Flair in das grüne Office an der Donau."
+  paul:
+    name: Paul
+    bio: "Bewegungshungrig, abenteuerlustig, spontan: Drei Eigenschaften, die Developer Paul perfekt umreißen. Er hat wirklich immer etwas vor im Fußballverein (ATSV Stein), bei der Freiwilligen Feuerwehr, im Sportverein seiner Heimatgemeinde. Zum Relaxen werden Serien geschaut und Technik-News gelesen."
+  wolfgang:
+    name: Wolfgang
+    bio: "Wolfgang ist Product Owner für Core Services und interne Software bei karriere.at. Noch Fragen? Also: Er sorgt dafür, dass die Karriereköpfe mit karriere.at bestmöglich arbeiten können und alle Systeme wie am Schnürchen laufen. Privat: Familie, Tochter, Katzen, Gitarre, Bücher und Metal!"
+  juergen:
+    name: Jürgen
+    bio: "Jürgen ist Master. Was er als Praktikant bei karriere.at begann, zeigt er heute im Dev-Team in höchster Perfektion. Musik ist seine Passion, Zocken ebenso. Sein freundliches Wesen erfreut nicht nur Mitmenschen und Kollegen, er ist auch ein großer Tierfreund, der zwei Chinchillas und zwei Katzen sein Eigen nennt."
+  manu:
+    name: Manu
+    bio: "I’m an experienced front-end developer and versatile digital artist. I’m into building websites and creating content for real-time rendering, film and animation. I’m also a bearded hacker making games with my friends. You can contact me via [GitHub](https://github.com/Lorti), [Twitter](http://twitter.com/manuelwieser)"
+  eva:
+    name: Eva
+  anita:
+    name: Anita
+    bio: "Leidenschaft spielt in Anitas Leben eine große Rolle. Ihr Motto: Alles, was man mit Liebe macht, wird auch gut: Ob Design, Kochen oder Gemüse-Züchten. Lesen - natürlich in Papierform! - gehört zur Entspannung dazu."
+  michael:
+    name: Michael
+  sharon:
+    name: Sharon
+    bio: "Ausdauer zählt zu Sharons größten Stärken. Und die braucht sie auch. Denn bevor bei karriere.at neue Codes zur Anwendung kommen, werden sie von der Gitarre und Tenor-Blockflöte spielenden Entspannungs-Häklerin auf Herz und Nieren geprüft. Steht Sport auf dem Programm, ist ebenfalls Ausdauer gefragt beim Klettern, Radfahren und Schwimmen."
+  klemens:
+    name: "Klemens 🚬"
+    bio: "Frontend Devloper bei karriere.at. Loves javascript, beer and coffee. [@thisisgordon](twitter.com/thisisgordon)"
+  jakob:
+    name: Jakob
+    bio: "Wer Jakob beschreiben will, muss auf Klischees verzichten. Er liebt die Bewegung (Snowboarden, Wandern, Slacklinen), steht auf Neurofunk, trinkt keinen Kaffee und fährt Supermoto. Der Mühlviertler ist aber Hacker mit Leib und Seele: bei karriere.at als Web Developer, privat als White Hat Hacker."
+  markusv:
+    name: Markus V.
+    bio: "Markus ist Dev, zweifacher Papa und Hundebesitzer. Geboren in Niederösterreich ist er nun am Linzer Winterhafen im karriere.at-Entwicklerteam gelandet. Entspannung findet er beim Sport (Fitness & Laufen) und - wer hätte das gedacht?!? - beim Programmieren."

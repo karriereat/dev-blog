@@ -2,7 +2,7 @@
 layout: post
 title: "PHPStorm Quicktipp - Autosuggest für Klassenvariablen"
 date: 2015-02-13 09:04:46
-author: Fichtl
+author: fichtl
 ---
 Für Klassenvariablen von unbekannten Typ werden im PHPStorm keine Vorschläge angezeigt. Man kann das einfach über einen Type-Hint-Comment beheben ...
 [---]

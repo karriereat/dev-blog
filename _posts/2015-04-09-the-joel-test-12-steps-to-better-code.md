@@ -2,7 +2,7 @@
 layout: post
 title: "The Joel Test - 12 Steps to Better Code"
 date: 2015-04-09 15:54:21
-author: Fichtl
+author: fichtl
 ---
 Vor 15 Jahren hat Joel Spolsky die 12 Regeln für bessere Software in seinem Blog [www.joelonsoftware.com](http://www.joelonsoftware.com) veröffentlicht. Letztens hab ich die Liste in einem Jobinserat von stackoverflow entdeckt und mich gefragt, wie schaut es damit eigentlich bei karriere.at aus?
 

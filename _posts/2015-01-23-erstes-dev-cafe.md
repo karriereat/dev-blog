@@ -2,7 +2,7 @@
 layout: post
 title: "Erstes Dev-Café"
 date: 2015-01-23 11:28:02
-author: Alex
+author: alex
 ---
 Wir bei karriere.at wollen uns ständig weiterbilden. Natürlich sind wir dazu auf vielen Konferenzen, Meetups und Talks. Wie viele andere Teams stehen wir vor der Herausforderung: Alle unsere Entwickler haben bereits spezielle Kenntnisse bzw. Fähigkeiten über Programmiersprachen für Front-End und Back-End, Technologien, Design-Patterns und vieles mehr. [---]
 

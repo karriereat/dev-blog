@@ -2,7 +2,7 @@
 layout: post
 title: "Februar #epicwin - Firma folgen"
 date: 2015-02-25 11:46:54
-author: Fichtl
+author: fichtl
 ---
 Jeden Monat ein neuer #epicwin. Seit einigen Tagen ist das __"Firmen folgen"-Feature__ jetzt online und die Umstellungsarbeiten halbwegs abgeschlossen.
 [---]

@@ -2,7 +2,7 @@
 layout: post
 title: "Code Quality matters"
 date: 2016-07-06 09:14:57
-author: Jakob
+author: jakob
 ---
 Jeder Entwickler kennt die Situation; man muss Änderungen in einem fremden Projekt vornehmen, findet aber eine unschöne Code-Basis vor:
 
@@ -21,12 +21,16 @@ Um unsere Entwicklung wieder angenehmer zu machen, musste also ein neues Konzept
 ## Maßnahmen zur Verbesserung der Code Qualität
 
 Um die Code Qualität über alle Packages hinweg konsistent zu halten, machen wir von folgenden Praktiken gebrauch:
-* Jedes Paket enthält eine [.editorconfig](http://editorconfig.org/)-Datei:  [code]
+
+* Jedes Paket enthält eine [.editorconfig](http://editorconfig.org/)-Datei:
+
+```config
 charset = utf-8
 end_of_line = lf
 indent_style = space
 indent_size = 4
-[/code]
+```
+
 * Jedes Paket hält sich an den [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md) Standard.
 * Jedes Paket enthält Tests für die wichtigsten Funktionen.
 * Jedes Paket muss nach [SemVer 2.0.0](http://semver.org/) versioniert werden.

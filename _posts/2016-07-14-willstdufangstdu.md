@@ -2,7 +2,7 @@
 layout: post
 title: "Pokémon Go Farm Party: #willstdufangstdu"
 date: 2016-07-14 13:17:44
-author: Klemens 🚬
+author: klemens
 ---
 
 Du bist auf der Jagd nach Pikachu, Schiggy & Co.? Dann bist du bei unserer karriere.at Farm Party am Samstag genau richtig: Es herrscht Pokémon Alarm!
@@ -13,9 +13,10 @@ Du bist auf der Jagd nach Pikachu, Schiggy & Co.? Dann bist du bei unserer karri
 - **Wann?** Am Samstag, 16. Juli ab 15.00
 - **Wer?** Gelb, Rot, Blau.
 
-#[Zum Facebook Event](https://www.facebook.com/events/1745612572364949/)
+# [Zum Facebook Event](https://www.facebook.com/events/1745612572364949/)
 
 Packliste für alle Pokémon Go Fans:
+
 - Akkupack
 - Ladestecker
 - Durst

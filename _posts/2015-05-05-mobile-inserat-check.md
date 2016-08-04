@@ -2,7 +2,7 @@
 layout: post
 title: "Mobile Inserat ... check!"
 date: 2015-05-05 07:27:29
-author: Fichtl
+author: fichtl
 ---
 __Yes. It's finally done.__  Alle karriere.at Inserate sind endlich mobil-optimiert online verfügbar.
 

@@ -24,7 +24,13 @@ post_class: post-template
         <header class="post-header">
             <h1 class="post-title">{{ page.title }}</h1>
             <section class="post-meta">
-                <span class="post-author">{{ page.author }}</span>
+                <span class="post-author">
+                  {% if site.authors[page.author].name %}
+                    {{ site.authors[page.author].name }}
+                  {% else %}
+                    {{ page.author }}
+                  {% endif %}
+                </span>
                 <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
                 {% if page.categories.size > 0 %}
                     {{ page.categories | array_to_sentence_string | prepend: 'on ' }}
@@ -69,14 +75,37 @@ post_class: post-template
         <footer class="post-footer">
             <!-- If we want to display author's name and bio -->
             {% if page.author %}
-                <section class="author">
-                    <!-- Author Name -->
-                    <h4> {{ page.author }} </h4>
-                    <!-- Author Bio -->
-                    <p>
-                        Here goes the author description. You might want to place some links too in here
-                    </p>
-                </section>
+              {% if site.authors[page.author].img %}
+                <figure class="author-image">
+                  <a class="img" href="{{ site.baseurl }}" style="background-image: url({{site.authors[page.author].img}})">
+                    <span class="hidden">
+                      {% if site.authors[page.author].name %}
+                        {{ site.authors[page.author].name }}
+                      {% else %}
+                        {{ page.author }}
+                      {% endif %}'s Picture
+                    </span>
+                  </a>
+                </figure>
+              {% endif %}
+              <section class="author">
+                  <!-- Author Name -->
+                  <h4>
+                    {% if site.authors[page.author].name %}
+                      {{ site.authors[page.author].name }}
+                    {% else %}
+                      {{ page.author }}
+                    {% endif %}
+                  </h4>
+
+                  <!-- Author Bio -->
+                  <p>
+                    {% if site.authors[page.author].bio %}
+                        {{ site.authors[page.author].bio | markdownify }}
+                    {% endif %}
+                  </p>
+
+              </section>
             {% endif %}
 
             <!-- Share links section -->
@@ -103,8 +132,10 @@ post_class: post-template
                   {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">read on &raquo;</a>
               </section> -->
               <footer class="post-meta post-meta-list">
-                  {% if post.author %}
-                      {{ post.author }}
+                  {% if site.authors[post.author].name %}
+                    {{ site.authors[post.author].name }}
+                  {% else %}
+                    {{ post.author }}
                   {% endif %}
                   {% if post.categories.size > 0 %}
                       {{ post.categories | array_to_sentence_string | prepend: 'on ' }}

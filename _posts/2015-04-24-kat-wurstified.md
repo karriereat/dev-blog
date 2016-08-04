@@ -2,7 +2,7 @@
 layout: post
 title: "karriere.at wurstified"
 date: 2015-04-24 07:04:12
-author: Fichtl
+author: fichtl
 ---
 Powered by https://wurstify.me ...
 

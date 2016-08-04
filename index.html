@@ -34,7 +34,6 @@ about: 'about.html'
     </div>
 
     {% for post in paginator.posts %}
-
     <article class="post">
         <header class="post-header">
             <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -43,8 +42,10 @@ about: 'about.html'
             {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">read on &raquo;</a>
         </section>
         <footer class="post-meta post-meta-list">
-            {% if post.author %}
-                {{ post.author }}
+            {% if site.authors[post.author].name %}
+              {{ site.authors[post.author].name }}
+            {% else %}
+              {{ post.author }}
             {% endif %}
             {% if post.categories.size > 0 %}
                 {{ post.categories | array_to_sentence_string | prepend: 'on ' }}
@@ -54,23 +55,6 @@ about: 'about.html'
             </time>
         </footer>
     </article>
-
-    <!-- Capser below -->
-<!--     <article class="{{post_class}}">
-    <header class="post-header">
-        <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>{{excerpt words="26"}} <a class="read-more" href="{{url}}">&raquo;</a></p>
-    </section>
-    <footer class="post-meta">
-        {{#if author.image}}<img class="author-thumb" src="{{author.image}}" alt="Author image" nopin="nopin" />{{/if}}
-        {{author}}
-        {{tags prefix=" on "}}
-        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
-    </footer>
-    </article> -->
-    <!--  -->
 
     {% endfor %}
 

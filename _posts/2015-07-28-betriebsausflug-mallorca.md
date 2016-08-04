@@ -2,7 +2,7 @@
 layout: post
 title: "10 Jahre karriere.at - Betriebsausflug Mallorca"
 date: 2015-07-28 06:00:20
-author: Fichtl
+author: fichtl
 ---
 Alle 10 Jahre darf man auch mal einen größeren Betriebsausflug machen ... zum Beispiel nach Mallorca. Einen ausführlichen Reisebericht mit vielen Fotos gibt's im privaten Blog von unserem Gustl zu lesen:
 

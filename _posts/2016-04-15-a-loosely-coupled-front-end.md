@@ -2,7 +2,7 @@
 layout: post
 title: "Pros do Vanilla - A loosely coupled front-end"
 date: 2016-04-15 09:24:40
-author: Klemens 🚬
+author: klemens
 ---
 Auf der [WeAreDevelopers](http://www.wearedevelopers.org/) hatten wir die Ehre auch Firmen fremden Menschen von unseren Errungenschaften im neuen karriere.at Front-End zu berichten. Der Talk handelt hauptsächlich von Methoden um Abhängigkeiten zwischen Frontend Komponenten zu lockern. [---]
 

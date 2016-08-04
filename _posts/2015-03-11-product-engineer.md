@@ -2,7 +2,7 @@
 layout: post
 title: "Was macht eigentlich ein Product Engineer?"
 date: 2015-03-11 15:47:51
-author: Wolfgang
+author: wolfgang
 ---
 Als Product Engineer bin ich Teil des Development-Teams bei karriere.at, obwohl ich selbst nur wenig programmiere. Der Großteil meiner Arbeit beinhaltet __technische Analysen und Konzepte__, deswegen muss ich Algorithmen nur so weit verstehen können, um Sinn und Zweck dahinter zu verstehen und daraus Verbesserungspotenzial erkennen zu können.
 [---]

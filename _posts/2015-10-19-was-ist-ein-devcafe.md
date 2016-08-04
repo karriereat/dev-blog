@@ -2,7 +2,7 @@
 layout: post
 title: "Was ist ein DevCafe?"
 date: 2015-10-19 13:56:26
-author: Fichtl
+author: fichtl
 ---
 Seit über einem Jahr steht das DevCafe als regelmäßiger Termin auf dem Team-Kalender. Was ein DevCafe ist, warum wir es machen und wie alles begann ...
 

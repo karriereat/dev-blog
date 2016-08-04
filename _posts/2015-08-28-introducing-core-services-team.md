@@ -2,7 +2,7 @@
 layout: post
 title: "Introducing: Core Services Team"
 date: 2015-08-28 08:07:07
-author: Wolfgang
+author: wolfgang
 ---
 Bei karriere.at gibt es für das DEV Team immer viel zu tun: Anforderungen kommen aus allen Abteilungen, vorwiegend aus dem Produktmanagement. Bei all den neuen Anforderungen bleibt kaum noch Zeit, sich um technologische Verbesserungen zu kümmern. Ein Update auf eine neuere Java Version bringt nach außen kaum eine sichtbare Verbesserung, ist aber dringend notwendig, um weiterhin eine hervorragende Qualität zu liefern. Deswegen wurde das DEV Team neu strukturiert, wodurch neben anderen Neuerungen ein eigenes Team für unsere Core Services entstanden ist.
 

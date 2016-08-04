@@ -2,7 +2,7 @@
 layout: post
 title: "Logging #epicwin"
 date: 2015-07-03 08:52:10
-author: Fichtl
+author: fichtl
 ---
 Seit einigen Wochen überwacht der sogenannte ELK unsere Applikationen und die ersten Erfahrungen sind sehr positiv.
 

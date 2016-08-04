@@ -2,7 +2,7 @@
 layout: post
 title: "Pull-Prinzip für Kanban-Boards in JIRA"
 date: 2016-05-04 09:06:07
-author: Michael
+author: michael
 ---
 Kanban-Boards in JIRA bieten nur Basisfunktionalitäten. Mit ein paar Handgriffen lässt sich aber auch das Pull-Prinzip implementieren.
 
@@ -41,86 +41,85 @@ Die Menüpunkte werden über ein Script Fragment definiert:
 
 Dieses ruft wiederum einen Custom Endpoint auf, der dann den Ready-to-Pull-Wert setzt (Achtung: Es folgt ein grausliches Script):
 
-[code]
+```java
 import com.onresolve.scriptrunner.runner.rest.common.CustomEndpointDelegate
-    import groovy.json.JsonOutput
-    import groovy.transform.BaseScript
-    import javax.ws.rs.core.MultivaluedMap
-    import javax.ws.rs.core.Response
-    import com.atlassian.jira.component.ComponentAccessor
-    import com.atlassian.jira.issue.IssueManager
-    import com.atlassian.crowd.embedded.api.User
-    import com.atlassian.jira.issue.MutableIssue
-    import com.atlassian.jira.ComponentManager
-    import com.atlassian.jira.issue.ModifiedValue
-    import com.atlassian.jira.issue.util.DefaultIssueChangeHolder
-    import com.atlassian.sal.api.ApplicationProperties
-    import com.onresolve.scriptrunner.runner.rest.common.CustomEndpointDelegate
-    import com.atlassian.jira.issue.fields.CustomField
-    import com.atlassian.jira.issue.CustomFieldManager
-    import com.atlassian.jira.issue.customfields.option.Options
-    import com.atlassian.jira.issue.customfields.manager.OptionsManager
-    import com.atlassian.jira.issue.index.IssueIndexingService
-    @BaseScript CustomEndpointDelegate delegate
-    def issueManager            = ComponentAccessor.getIssueManager()
-    def customFieldManager      = ComponentAccessor.getCustomFieldManager()
-    def componentManager        = ComponentManager.getInstance()
-    def optionsManager          = componentManager.getComponentInstanceOfType(OptionsManager.class)
-    def issueIndexingService    = ComponentAccessor.getComponent(IssueIndexingService)
-    def issueService            = ComponentAccessor.getIssueService()
-    rtp(httpMethod: "GET") { MultivaluedMap queryParams ->
-        def issueId                 = queryParams.getFirst("issueId") as Long
-        def rtpType                 = queryParams.getFirst("rtptype") as String
-        def issue                   = issueManager.getIssueObject(issueId)
-        def rtpCf                   = customFieldManager.getCustomFieldObject("customfield_10830")
-        def changeHolder            = new DefaultIssueChangeHolder()
-        def fieldConfig             = rtpCf.getRelevantConfig(issue)
-        def user                    = ComponentAccessor.jiraAuthenticationContext.getLoggedInUser()
-        def issueInputParameters    = issueService.newIssueInputParameters()
-        Options options             = optionsManager.getOptions(rtpCf.getConfigurationSchemes().first().getOneAndOnlyConfig());
+import groovy.json.JsonOutput
+import groovy.transform.BaseScript
+import javax.ws.rs.core.MultivaluedMap
+import javax.ws.rs.core.Response
+import com.atlassian.jira.component.ComponentAccessor
+import com.atlassian.jira.issue.IssueManager
+import com.atlassian.crowd.embedded.api.User
+import com.atlassian.jira.issue.MutableIssue
+import com.atlassian.jira.ComponentManager
+import com.atlassian.jira.issue.ModifiedValue
+import com.atlassian.jira.issue.util.DefaultIssueChangeHolder
+import com.atlassian.sal.api.ApplicationProperties
+import com.onresolve.scriptrunner.runner.rest.common.CustomEndpointDelegate
+import com.atlassian.jira.issue.fields.CustomField
+import com.atlassian.jira.issue.CustomFieldManager
+import com.atlassian.jira.issue.customfields.option.Options
+import com.atlassian.jira.issue.customfields.manager.OptionsManager
+import com.atlassian.jira.issue.index.IssueIndexingService
+@BaseScript CustomEndpointDelegate delegate
+def issueManager            = ComponentAccessor.getIssueManager()
+def customFieldManager      = ComponentAccessor.getCustomFieldManager()
+def componentManager        = ComponentManager.getInstance()
+def optionsManager          = componentManager.getComponentInstanceOfType(OptionsManager.class)
+def issueIndexingService    = ComponentAccessor.getComponent(IssueIndexingService)
+def issueService            = ComponentAccessor.getIssueService()
+rtp(httpMethod: "GET") { MultivaluedMap queryParams ->
+    def issueId                 = queryParams.getFirst("issueId") as Long
+    def rtpType                 = queryParams.getFirst("rtptype") as String
+    def issue                   = issueManager.getIssueObject(issueId)
+    def rtpCf                   = customFieldManager.getCustomFieldObject("customfield_10830")
+    def changeHolder            = new DefaultIssueChangeHolder()
+    def fieldConfig             = rtpCf.getRelevantConfig(issue)
+    def user                    = ComponentAccessor.jiraAuthenticationContext.getLoggedInUser()
+    def issueInputParameters    = issueService.newIssueInputParameters()
+    Options options             = optionsManager.getOptions(rtpCf.getConfigurationSchemes().first().getOneAndOnlyConfig());
 
-        // set "Ready to Pull" to "Forward"
-        if (rtpType == "forward") {
-            def selectedOptions = options.findAll {
-                it.value == "Forward"
-            }.collect {
-                it.optionId.toString()
-            }
-            issueInputParameters.addCustomFieldValue("customfield_10830", *selectedOptions)
-        } // end if
-        // set "Ready to Pull" to "back"
-        if (rtpType == "back") {
-            def selectedOptions = options.findAll {
-                it.value == "Back"
-            }.collect {
-                it.optionId.toString()
-            }
-            issueInputParameters.addCustomFieldValue("customfield_10830", *selectedOptions)
-        } // end if
-
-        def updateValidationResult = issueService.validateUpdate(user, issue.id, issueInputParameters)
-        if (updateValidationResult.isValid()) {
-            issueService.update(user, updateValidationResult)
-            log.debug("Done")
-
-            // reindex issue
-            issueIndexingService.reIndexIssueObjects([issue])
-
-            // Output message to user
-            def flag = [
-                type : 'success',
-                title: "Issue change successfully",
-                close: 'auto',
-                body : "The following changes have been made: Set 'Ready to Pull'."
-            ]
-
-            Response.ok(JsonOutput.toJson(flag)).build()
-        } else {
-            log.debug(updateValidationResult.errorCollection)
+    // set "Ready to Pull" to "Forward"
+    if (rtpType == "forward") {
+        def selectedOptions = options.findAll {
+            it.value == "Forward"
+        }.collect {
+            it.optionId.toString()
         }
-    }
+        issueInputParameters.addCustomFieldValue("customfield_10830", *selectedOptions)
+    } // end if
+    // set "Ready to Pull" to "back"
+    if (rtpType == "back") {
+        def selectedOptions = options.findAll {
+            it.value == "Back"
+        }.collect {
+            it.optionId.toString()
+        }
+        issueInputParameters.addCustomFieldValue("customfield_10830", *selectedOptions)
+    } // end if
 
-[/code]
+    def updateValidationResult = issueService.validateUpdate(user, issue.id, issueInputParameters)
+    if (updateValidationResult.isValid()) {
+        issueService.update(user, updateValidationResult)
+        log.debug("Done")
+
+        // reindex issue
+        issueIndexingService.reIndexIssueObjects([issue])
+
+        // Output message to user
+        def flag = [
+            type : 'success',
+            title: "Issue change successfully",
+            close: 'auto',
+            body : "The following changes have been made: Set 'Ready to Pull'."
+        ]
+
+        Response.ok(JsonOutput.toJson(flag)).build()
+    } else {
+        log.debug(updateValidationResult.errorCollection)
+    }
+}
+```
 
 Ein kleiner Schönheitsfehler bleibt jedoch: Das Board beziehungsweise die Detailansicht eines Tickets wird nicht automatisch aktualisiert.
 

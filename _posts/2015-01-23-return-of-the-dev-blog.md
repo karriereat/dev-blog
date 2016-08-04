@@ -2,7 +2,7 @@
 layout: post
 title: "Return of the Dev Blog"
 date: 2015-01-23 11:27:15
-author: Fichtl
+author: fichtl
 ---
 Wieder ein Jahr vorbei und hier im Dev-Blog ist leider nicht viel weitergegangen :( ... Daily Business und neue Projekte hatten einfach immer Vorrang. Zwischenzeitlich wollte ich darum den Dev-Blog auch komplett "zusperren" und als Fail einfach mal abhaken [---]...
 

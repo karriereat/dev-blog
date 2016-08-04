@@ -2,7 +2,7 @@
 layout: post
 title: "new TestFerrari;"
 date: 2015-07-02 12:38:54
-author: Fred
+author: fred
 ---
 Eine Webseite soll ja nicht nur in dem Browser funktionieren in dem der Developer sie gebaut hat, sondern eigentlich in jedem. Genau deswegen haben wir den sogenannten "Testferrari" auf dem alle unsere Devices ihren Platz finden. 
 

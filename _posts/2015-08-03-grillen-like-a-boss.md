@@ -2,7 +2,7 @@
 layout: post
 title: "Grillen like a Boss"
 date: 2015-08-03 09:44:45
-author: Fred
+author: fred
 ---
 An jedem letzten Dienstag des Monats findet bei uns im Development das sagenumwobene Dev-Café statt.
 

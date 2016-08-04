@@ -2,7 +2,7 @@
 layout: post
 title: "WeAreDevelopers Slides"
 date: 2015-06-12 04:30:27
-author: Fichtl
+author: fichtl
 ---
 As promised yesterday ... here are the slides of my presentation at #WAD15 about Engineering Culture.
 

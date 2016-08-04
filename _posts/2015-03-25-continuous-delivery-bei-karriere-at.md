@@ -2,7 +2,7 @@
 layout: post
 title: "Continuous Delivery bei karriere.at"
 date: 2015-03-25 12:07:25
-author: Alex
+author: alex
 ---
 Neue Features den Benutzern sofort zugänglich machen und Bugfixes innerhalb kurzer Zeit zu beheben, ist oft sehr schwer zu verwirklichen. Wir bei karriere.at versuchen unser Bestes dieses Vorgehen zu leben. Möglich ist das aber nur durch unsere Entwicklungs- und Test- und Deployment-Umgebungen, sowie der Disziplin unserer Entwickler. Wie das bei uns funktioniert, möchten wir in diesem Artkiel erklären.
 [---]
