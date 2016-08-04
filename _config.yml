@@ -1,11 +1,11 @@
 name: dev-blog
-description: karriere.at developer blog. Blogging about stuffs.
+description: karriere.at developer blog. Blogging about stuffs
 meta_description: "karriere.at developer blog. Blogging about stuffs"
 
 markdown: kramdown
 highlighter: pygments
 logo: false
-paginate: 15
+paginate: 30
 baseurl: /
 domain_name: 'http://dev.karriere.at'
 google_analytics: 'UA-XXXXXXXX-X'
