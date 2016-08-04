@@ -12,7 +12,7 @@ Die Slides befinden sich auf [Speakerdeck](https://speakerdeck.com/lorti/dominan
 <script async class="speakerdeck-embed" data-id="fd2ee88b250b4685a2d4cee43ba7cf86" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 
-[---]
+<!--more-->
 
 karriere.at ist außerdem immer auf der Suche nach fähigen Entwicklern, also meldet euch bei uns unter [join@karriere.at](mailto:join@karriere.at).
 

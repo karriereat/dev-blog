@@ -6,7 +6,7 @@ author: fichtl
 ---
 As promised yesterday ... here are the slides of my presentation at #WAD15 about Engineering Culture.
 
-[---]
+<!--more-->
 
 [Download](//kcdn.at/dev-blog/images/wearedevelopers-slides/WeAreDevelopers - karriere.at Engineering Culture.pdf)
 

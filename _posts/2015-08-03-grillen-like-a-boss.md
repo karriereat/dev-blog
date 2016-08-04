@@ -12,7 +12,7 @@ Jedoch ist dieses Mal das "kleine" Event etwas größer ausgefallen.
 Wir durften von einem Profi Grillmeister lernen, wie man das perfekte Steak grillt.
 Gezaubert wurde ein 3-gängiges Menü bestehend aus Steaksalat mit Rucola, Filetsteaks mit Gemüse und Schokobanane vom Grill.
 
-[---]
+<!--more-->
 
 Als kleines Geschenk zum Schluss gabs noch ein g´scheites Steakmesser und alle Rezepte zum Nachgrillen.
 

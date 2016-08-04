@@ -6,7 +6,7 @@ author: fichtl
 ---
 Seit einigen Wochen überwacht der sogenannte ELK unsere Applikationen und die ersten Erfahrungen sind sehr positiv.
 
-[---]
+<!--more-->
 
 ELK steht für ElasticSearch / LogStash / Kibana, diese drei Programme bilden gemeinsam eine flexible Logging-Plattform die wir zukünftig sukzessive ausbauen wollen.
 

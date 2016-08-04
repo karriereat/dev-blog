@@ -6,7 +6,7 @@ author: fichtl
 ---
 Vor 15 Jahren hat Joel Spolsky die 12 Regeln für bessere Software in seinem Blog [www.joelonsoftware.com](http://www.joelonsoftware.com) veröffentlicht. Letztens hab ich die Liste in einem Jobinserat von stackoverflow entdeckt und mich gefragt, wie schaut es damit eigentlich bei karriere.at aus?
 
-[---]
+<!--more-->
 
 1. Do you use source control? __Ja, klar__. Seit kurzem Git vorher Subversion, gibts noch Firmen die das nicht machen? Ich denke nicht.
 

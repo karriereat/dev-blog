@@ -6,7 +6,7 @@ author: fichtl
 ---
 Letzte Woche wurde beim ersten DEVLAND an der FH Hagenberg fleissig gespielt, geflogen, gerätselt und Geschenke abgestaubt ... hier einige Impressionen.
 
-[---]
+<!--more-->
 
 ![](//kcdn.at/dev-blog/images/devland-hagenberg/1.jpg)
 

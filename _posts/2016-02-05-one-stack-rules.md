@@ -6,7 +6,7 @@ author: fichtl
 ---
 Eines unserer aktuellen Major-Projects geht langsam in die finale Phase und damit kann man jetzt mal ein paar Details preisgeben ...
 
-[---]
+<!--more-->
 
 * Our Mission: Most fucking sophisticated Job Aggregator in Austria!
 * Principles: Slim, fast, clear ... everything NEW.

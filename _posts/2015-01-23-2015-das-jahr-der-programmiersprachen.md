@@ -4,7 +4,7 @@ title: "2015 - Das Jahr der Programmiersprachen?"
 date: 2015-01-23 11:29:06
 author: fichtl
 ---
-Neues Jahr, neues Glück? In Sachen Programmiersprachen gibts 2015 allerhand Interessantes: Neue Sprachen stehen in den Startlöchern, andere haben bereits Fahrt aufgenommen und alte Bekannte werden generalüberholt. Meiner Meinung nach dürften in diesem Jahr in vielen Bereichen Änderungen stattfinden. Hier mal meine rein subjektive Einschätzung zu unterschiedlichen Sprachen [---]...
+Neues Jahr, neues Glück? In Sachen Programmiersprachen gibts 2015 allerhand Interessantes: Neue Sprachen stehen in den Startlöchern, andere haben bereits Fahrt aufgenommen und alte Bekannte werden generalüberholt. Meiner Meinung nach dürften in diesem Jahr in vielen Bereichen Änderungen stattfinden. Hier mal meine rein subjektive Einschätzung zu unterschiedlichen Sprachen <!--more-->...
 
 ## Web Frontend
 

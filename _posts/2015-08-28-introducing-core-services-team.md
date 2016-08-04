@@ -8,7 +8,7 @@ Bei karriere.at gibt es für das DEV Team immer viel zu tun: Anforderungen komme
 
 ![](//kcdn.at/dev-blog/images/introducing-core-services-team/dev_team.png)
 
-[---]
+<!--more-->
 
 Grob gesagt sind die Hauptthemen im Core Services Team die Search & Match Technologien, auf denen die Jobsuche, der Jobalarm und vieles mehr aufbauen, sowie viele, viele Tools, die von karriere.at intern verwendet werden, wie etwa Producing Tools und die Ontologie.
 

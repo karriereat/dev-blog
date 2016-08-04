@@ -5,7 +5,7 @@ date: 2015-02-25 11:46:54
 author: fichtl
 ---
 Jeden Monat ein neuer #epicwin. Seit einigen Tagen ist das __"Firmen folgen"-Feature__ jetzt online und die Umstellungsarbeiten halbwegs abgeschlossen.
-[---]
+<!--more-->
 Unsere Website-Benutzer können jetzt endlich ihren zukünftigen Wunscharbeitgebern folgen und __tausende Benutzer__ benutzen die neue Funktion bereits. Das neue Feature zieht sich quer durch ganz karriere.at und besteht aus etlichen Einzelteilen ...  
 
 ## Schöne neue Welt 

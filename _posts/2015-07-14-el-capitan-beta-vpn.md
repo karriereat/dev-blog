@@ -6,7 +6,7 @@ author: fichtl
 ---
 ... zum Beispiel unseren VPN Client oder auch Composer. Nachdem ein Downgrade nicht vorgesehen ist, habe ich mal den Fehler zurückverfolgt.
 
-[---]
+<!--more-->
 
 Zuerst ist mir aufgefallen das mein Composer verschwunden ist. Der war ursprünglich im /bin Verzeichnis aber dabei hab ich mir noch nicht viel gedacht und einfach nochmal unter /usr/local/bin installiert.
 

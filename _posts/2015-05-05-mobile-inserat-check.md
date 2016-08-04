@@ -6,7 +6,7 @@ author: fichtl
 ---
 __Yes. It's finally done.__  Alle karriere.at Inserate sind endlich mobil-optimiert online verfügbar.
 
-[---]
+<!--more-->
 
 __"Alle Jobs"__ bedeutet alle die vom Producing-Team als geprüft und mobil-optimiert gekennzeichnet wurden. Bei karriere.at sind das aktuell über 10.000 organische Jobs (also keine Duplikate) von über 2.000 unterschiedlichen Unternehmen.
 

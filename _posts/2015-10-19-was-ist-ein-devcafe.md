@@ -6,7 +6,7 @@ author: fichtl
 ---
 Seit über einem Jahr steht das DevCafe als regelmäßiger Termin auf dem Team-Kalender. Was ein DevCafe ist, warum wir es machen und wie alles begann ...
 
-[---]
+<!--more-->
 
 ## Die Idee
 Letztes Jahr haben wir unser großes Team in kleinere Scrum-Teams geteilt und schon bald danach gab es einige Feedbacks das man mit den Leuten des jeweils anderen Teams kaum mehr zu tun hat. Zusätzlich bildeten sich Wissensinseln zu bestimmten Themen die immer vom selben Scrum-Team bearbeitet wurden.

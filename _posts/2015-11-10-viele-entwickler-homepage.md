@@ -6,7 +6,7 @@ author: manu
 ---
 Auf Veranstaltungen werden wir oft gefragt, woran die mittlerweile 19 Entwickler bei karriere.at eigentlich den ganzen Tag arbeiten. Berufseinsteiger und Studenten – aber auch erfahrene Entwickler – kennen karriere.at meist als reines Jobportal und wundern sich, was daran so aufwendig sein soll. Hinter karriere.at steckt aber viel mehr, als man auf den ersten Blick sieht. Deshalb möchte ich anderen Devs einen kleinen Überblick geben.
 
-[---]
+<!--more-->
 
 ## Die drei Säulen
 

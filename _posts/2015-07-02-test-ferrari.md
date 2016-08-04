@@ -8,7 +8,7 @@ Eine Webseite soll ja nicht nur in dem Browser funktionieren in dem der Develope
 
 <img src="//kcdn.at/dev-blog/images/test-ferrari/11419267_1619928391617642_1249113231_n.jpg">
 
-[---]
+<!--more-->
  
 Doch bis vor wenigen Tagen wollte sich eigentlich nie wirklich jemand von dem Testwagerl ein Gerät zum Testen ausborgen. Entweder war das Gerät leer oder es fehlte überhaupt. Genau deswegen habe ich mir einen Ruck gegeben und habe alle Geräte plus Netzteile zusammen gesucht und alles sauber miteinander verkabelt.
 

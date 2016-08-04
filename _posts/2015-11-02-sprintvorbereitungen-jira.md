@@ -5,7 +5,7 @@ date: 2015-11-02 10:26:30
 author: michael
 ---
 Wenn sich Arbeitsprozesse ändern, so müssen sich auch die Werkzeuge an die neuen Gegebenheiten anpassen. Eine der letzten Änderungen betraf unser Ticket-Tool JIRA.
-[---]
+<!--more-->
 
 Hier bei karriere.at arbeiten die meistens Teams nach dem [Scrum-Framework](https://de.wikipedia.org/wiki/Scrum) und verwenden <a href="https://de.atlassian.com/software/jira">JIRA</a> als Werkzeug, um [User Stories](https://de.wikipedia.org/wiki/Scrum#User_Story) zu erfassen. Da das sogenannte [Backlog Grooming](https://de.wikipedia.org/wiki/Scrum#Product_Backlog_Refinement) zwar von sehr vielen Entwicklerteams gemacht wird, jedoch kein offizieller Bestandteil von Scrum ist, hat der Hersteller [Atlassian](https://de.wikipedia.org/wiki/Atlassian) hierzu auch keine native Funktionalität in JIRA eingebaut.
 Bis vor Kurzem haben die [Product Owner](https://de.wikipedia.org/wiki/Scrum#Product_Owner) dazu manuell eine Seite in <a href="https://de.wikipedia.org/wiki/Confluence_(Atlassian)">Confluence</a> gepflegt, wo sie ihre Stories eingetragen haben, die sie mit dem Umsetzungsteams groomen wollten. Stories die dann bereit für die Aufnahme in einen zukünftigen Sprint waren, wurden in der Backlogliste über einem Behelfseintrag "Next Sprint" platziert.
