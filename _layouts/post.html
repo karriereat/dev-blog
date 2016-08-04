@@ -38,25 +38,6 @@ post_class: post-template
             </section>
         </header>
 
-<!--         <header class="post-header">
-            <a id="blog-logo" href="{{site.url}}">
-                {% if site.logo %}
-                    <img src="{{site.logo}}" alt="{{ site.name }}" />
-                {% else %}
-                    <span class="blog-title">{{ site.name }}</span>
-                {%endif%}
-            </a>
-        </header> -->
-
-        <!-- <span class="post-meta">
-            <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
-            {% if page.categories.size > 0 %}
-                {{ page.categories | array_to_sentence_string | prepend: 'on ' }}
-            {% endif %}
-        </span> -->
-
-        <!-- <h1 class="post-title">{{ page.title }}</h1> -->
-
         <section class="post-content">
             {{content}}
         </section>
@@ -128,9 +109,6 @@ post_class: post-template
               <header class="post-header">
                   <h4 class="post-title-small"><a href="{{ post.url }}">{{ post.title }}</a></h4>
               </header>
-              <!-- <section class="post-excerpt">
-                  {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">read on &raquo;</a>
-              </section> -->
               <footer class="post-meta post-meta-list">
                   {% if site.authors[post.author].name %}
                     {{ site.authors[post.author].name }}
