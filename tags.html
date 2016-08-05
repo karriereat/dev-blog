@@ -1,0 +1,91 @@
+---
+layout: default
+title: Tags
+cover: false
+---
+
+<header class="main-header index-head {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
+    <nav class="main-nav overlay clearfix">
+        <a class="back-button" href="/">Home</a>
+        <a class="subscribe-button" href="/feed.xml">Subscribe</a>
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">{{ site.name }}</h1>
+            <h2 class="page-description">
+                {% if site.description %}{{ site.description | markdownify}}{% endif %}
+            </h2>
+        </div>
+    </div>
+    <a class="scroll-down" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+</header>
+
+
+<main id="content" class="content" role="main">
+
+  {% comment %}
+  #############
+    Get unique tags from all posts
+  #############
+  {% endcomment %}
+
+  {% assign rawtags = "" %}
+  {% for post in site.posts %}
+  {% assign ttags = post.tags | join:'|' | append:'|' %}
+  {% assign rawtags = rawtags | append:ttags %}
+  {% endfor %}
+  {% assign rawtags = rawtags | split:'|' | sort %}
+  {% assign tags = "" %}
+  {% for tag in rawtags %}
+  {% if tag != "" %}
+  {% if tags == "" %}
+  {% assign tags = tag | split:'|' %}
+  {% endif %}
+  {% unless tags contains tag %}
+  {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+  {% endunless %}
+  {% endif %}
+  {% endfor %}
+
+  <ul class="tagList">
+  {% for tag in tags %}
+    <li class="tagList-item"><a href="#{{ tag | slugify }}">#{{ tag }}</a></li>
+  {% endfor %}
+  </ul>
+
+  {% for tag in tags %}
+
+   <h2 class="tags-tag" id="{{ tag | slugify }}">#{{ tag }}</h2>
+
+	 {% for post in site.posts %}
+		 {% if post.tags contains tag %}
+     <article class="post tags-post">
+         <header class="post-header">
+             <h4 class="post-title-tags"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+         </header>
+         <footer class="post-meta post-meta-list">
+             {% if site.authors[post.author].name %}
+               {{ site.authors[post.author].name }}
+             {% else %}
+               {{ post.author }}
+             {% endif %}
+             {% if post.categories.size > 0 %}
+                 {{ post.categories | array_to_sentence_string | prepend: 'on ' }}
+             {% endif %}
+
+             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
+                 {{ post.date | date_to_string }}
+             </time>
+             <span class="post-tags">
+               {% for tag in post.tags %}
+                  <a class="tag" href="/tags#{{ tag | slugify }}">#{{ tag }}</a>
+               {% endfor %}
+             </span>
+         </footer>
+     </article>
+		 {% endif %}
+	 {% endfor %}
+{% endfor %}
+
+
+</main>

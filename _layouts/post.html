@@ -32,9 +32,11 @@ post_class: post-template
                   {% endif %}
                 </span>
                 <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
-                {% if page.categories.size > 0 %}
-                    {{ page.categories | array_to_sentence_string | prepend: 'on ' }}
-                {% endif %}
+                <span class="post-tags">
+                  {% for tag in page.tags %}
+                     <a class="tag" href="/tags#{{ tag | slugify }}">#{{ tag }}</a>
+                  {% endfor %}
+                </span>
             </section>
         </header>
 
@@ -121,6 +123,11 @@ post_class: post-template
                   <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                       {{ post.date | date_to_string }}
                   </time>
+                  <span class="post-tags">
+                    {% for tag in post.tags %}
+                       <a class="tag" href="/tags#{{ tag | slugify }}">#{{ tag }}</a>
+                    {% endfor %}
+                  </span>
               </footer>
           </article>
 

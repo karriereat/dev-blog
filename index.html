@@ -2,7 +2,6 @@
 layout: default
 title: Home
 cover: false
-about: 'about.html'
 ---
 
 <header class="main-header index-head {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
@@ -29,7 +28,6 @@ about: 'about.html'
 
 <main id="content" class="content" role="main">
 
-
     <div class="extra-pagination inner">
         {% include pagination.html %}
     </div>
@@ -51,9 +49,15 @@ about: 'about.html'
             {% if post.categories.size > 0 %}
                 {{ post.categories | array_to_sentence_string | prepend: 'on ' }}
             {% endif %}
+
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
             </time>
+            <span class="post-tags">
+              {% for tag in post.tags %}
+                 <a class="tag" href="/tags#{{ tag | slugify }}">#{{ tag }}</a>
+              {% endfor %}
+            </span>
         </footer>
     </article>
 

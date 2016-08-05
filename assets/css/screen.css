@@ -637,6 +637,41 @@ margin on the iframe, cause it breaks stuff. */
     animation-delay: 0.1s;
 }
 
+/* tag */
+.tagList {
+  width: 80%;
+  max-width: 710px;
+  margin: 4rem auto;
+  padding:0;
+}
+
+.tagList-item {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  margin:0;
+}
+
+.tagList-item a {
+  text-decoration: none;
+  color: #9EABB3;
+  margin: 0 1rem 0 0;
+}
+
+.tagList-item a:hover {
+    text-decoration: underline;
+}
+
+.tags-tag {
+  width: 80%;
+  max-width: 710px;
+  margin: 4rem auto;
+  border-top: #EBF2F6 1px solid;
+  text-transform: uppercase;
+  padding-top: 4rem;
+  color: #9EABB3;
+}
+
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
     position: relative;
@@ -647,6 +682,11 @@ margin on the iframe, cause it breaks stuff. */
     border-bottom: #EBF2F6 1px solid;
     word-break: break-word;
     hyphens: auto;
+}
+
+.tags-post {
+    border-bottom: none;
+    padding-bottom: 0;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
@@ -668,11 +708,15 @@ margin on the iframe, cause it breaks stuff. */
     box-shadow: #FFF 0 0 0 5px;
 }
 
+.tags-post:after {
+    display: none;
+}
+
 body:not(.post-template) .post-title {
     font-size: 3.6rem;
 }
 
-.post-title a, .post-title-small a {
+.post-title a, .post-title-small a, .post-title-tags a {
     text-decoration: none;
 }
 
@@ -728,7 +772,8 @@ body:not(.post-template) .post-title {
     min-height: 77px;
 }
 
-.post-date {
+.post-date,
+.post-tags {
     display: inline-block;
     margin-left: 8px;
     padding-left: 12px;
@@ -792,7 +837,8 @@ body:not(.post-template) .post-title {
     margin: 0;
 }
 
-.post-template .post-date {
+.post-template .post-date,
+.post-template .post-tags {
     padding: 0;
     margin: 0;
     border: none;
@@ -1501,7 +1547,8 @@ body:not(.post-template) .post-title {
         /*margin-bottom: 2rem;*/
     }
 
-    .post-template .post-date {
+    .post-template .post-date,
+    .post-template .post-tags {
         display: inline-block;
     }
 
