@@ -606,6 +606,7 @@ margin on the iframe, cause it breaks stuff. */
     /*min-height: 160px;*/
     /*max-height: 40%;*/
     background: #86c72a;
+    background-image: radial-gradient( circle at top right, rgba(255, 255, 0, 0.6), transparent 70%);
 }
 
 .no-cover .page-title {
