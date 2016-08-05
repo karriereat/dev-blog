@@ -3,6 +3,7 @@ layout: post
 title: "Grillen like a Boss"
 date: 2015-08-03 09:44:45
 author: fred
+tags: [events]
 ---
 An jedem letzten Dienstag des Monats findet bei uns im Development das sagenumwobene Dev-Café statt.
 
@@ -18,7 +19,7 @@ Als kleines Geschenk zum Schluss gabs noch ein g´scheites Steakmesser und alle 
 
 Hier ein paar Eindrücke von der Grillerei.
 
-![](https://farm1.staticflickr.com/385/20114864521_c3accf820b_z_d.jpg) 
+![](https://farm1.staticflickr.com/385/20114864521_c3accf820b_z_d.jpg)
 
 ![](https://farm1.staticflickr.com/307/19921317188_8aa0443ea8_z_d.jpg)
 ![](https://farm1.staticflickr.com/3830/20123596115_069883a780_z_d.jpg)

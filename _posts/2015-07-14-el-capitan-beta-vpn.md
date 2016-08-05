@@ -3,6 +3,7 @@ layout: post
 title: "Mac OSX El Capitan Beta breaks ..."
 date: 2015-07-14 07:56:12
 author: fichtl
+tags: [tech]
 ---
 ... zum Beispiel unseren VPN Client oder auch Composer. Nachdem ein Downgrade nicht vorgesehen ist, habe ich mal den Fehler zurückverfolgt.
 

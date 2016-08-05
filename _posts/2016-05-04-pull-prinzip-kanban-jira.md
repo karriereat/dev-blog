@@ -3,6 +3,7 @@ layout: post
 title: "Pull-Prinzip für Kanban-Boards in JIRA"
 date: 2016-05-04 09:06:07
 author: michael
+tags: [scrum, jira]
 ---
 Kanban-Boards in JIRA bieten nur Basisfunktionalitäten. Mit ein paar Handgriffen lässt sich aber auch das Pull-Prinzip implementieren.
 

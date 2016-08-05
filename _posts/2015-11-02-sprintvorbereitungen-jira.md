@@ -3,6 +3,7 @@ layout: post
 title: "Sprintvorbereitungen in JIRA"
 date: 2015-11-02 10:26:30
 author: michael
+tags: [scrum, jira]
 ---
 Wenn sich Arbeitsprozesse ändern, so müssen sich auch die Werkzeuge an die neuen Gegebenheiten anpassen. Eine der letzten Änderungen betraf unser Ticket-Tool JIRA.
 <!--more-->

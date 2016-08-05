@@ -3,6 +3,7 @@ layout: post
 title: "Code Quality matters"
 date: 2016-07-06 09:14:57
 author: jakob
+tags: [php, code-quality]
 ---
 Jeder Entwickler kennt die Situation; man muss Änderungen in einem fremden Projekt vornehmen, findet aber eine unschöne Code-Basis vor:
 

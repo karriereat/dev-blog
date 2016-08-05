@@ -3,6 +3,7 @@ layout: post
 title: "WeAreDevelopers Slides"
 date: 2015-06-12 04:30:27
 author: fichtl
+tags: [events, talks]
 ---
 As promised yesterday ... here are the slides of my presentation at #WAD15 about Engineering Culture.
 
@@ -43,11 +44,3 @@ __Slides 44,45,46:__  Building my team 1 by 1 ... i only hire people they fit in
 __Slides 47,48:__ Software Development is a people business and you should invest more time in your recruiting process and focus more on your own people. Everybody has different needs, i try to satisfy all of them ... but overall developers (humans) love freedom ... try to increase as much as possible.
 
 __Slides 49-52:__ The 4 secret ingredients of great software: Hire good people, build a simple process, do quality stuff and improve your communication. That's it.
-
-
-
-
-
- 
-
-

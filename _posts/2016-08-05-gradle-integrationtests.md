@@ -3,6 +3,7 @@ layout: post
 title: "Integration Testsets mit Gradle"
 date: 2016-08-05 08:29:42
 author: markusv
+tags: [java, gradle]
 ---
 Wir im Core Team haben unseren Fokus in letzter Zeit verstärkt auf die Tests unserer Java-Services gelegt. Eine Maßnahme die wir (endlich) erledigt haben war unsere Integrationtests von den Unittests zu trennen.
 

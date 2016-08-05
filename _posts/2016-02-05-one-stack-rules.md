@@ -3,6 +3,7 @@ layout: post
 title: "One stack to rule them all ..."
 date: 2016-02-05 08:48:18
 author: fichtl
+tags: [devops]
 ---
 Eines unserer aktuellen Major-Projects geht langsam in die finale Phase und damit kann man jetzt mal ein paar Details preisgeben ...
 

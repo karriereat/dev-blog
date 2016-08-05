@@ -3,6 +3,7 @@ layout: post
 title: "Quality Check für Bewerber Matching"
 date: 2015-05-06 13:02:54
 author: wolfgang
+tags: [products]
 ---
 Wir arbeiten ständig an Verbesserungen unserer Produkte, aber oft lässt sich nur schwer messen, welche Variante eines Produktes nun tatsächlich besser ist. Was bedeutet "besser" überhaupt?<!--more--> Schneller? Billiger? Schöner? Höhere Conversion Rate?
 

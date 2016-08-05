@@ -3,6 +3,7 @@ layout: post
 title: "Dominant Colors for Lazy-Loading Images @ Stahlstadt.js"
 date: 2016-05-24 11:08:13
 author: manu
+tags: [talks, javascript, frontend]
 ---
 Das letzte Stahlstadt.js fand bei karriere.at statt und wir stellten Bosna und den ersten Talk zur Verfügung. Ich habe über [Dominant Colors for Lazy-Loading Images](https://manu.ninja/dominant-colors-for-lazy-loading-images) gesprochen – ein Konzept das beispielsweise in unserem [karriere.blog](http://www.karriere.at/blog/) zum Einsatz kommt.
 

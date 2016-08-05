@@ -3,6 +3,7 @@ layout: post
 title: "Pros do Vanilla - A loosely coupled front-end"
 date: 2016-04-15 09:24:40
 author: klemens
+tags: [talks, frontend, javascript, bem]
 ---
 Auf der [WeAreDevelopers](http://www.wearedevelopers.org/) hatten wir die Ehre auch Firmen fremden Menschen von unseren Errungenschaften im neuen karriere.at Front-End zu berichten. Der Talk handelt hauptsächlich von Methoden um Abhängigkeiten zwischen Frontend Komponenten zu lockern. <!--more-->
 
@@ -18,6 +19,6 @@ Da die Konferenz After-Show-Partys meist die Erinnerungen an die Vorträge trüb
 
 Vielen Dank noch einmal an die Organisation der Konferenz - nächstes Jahr bitte mehr Twitter Walls!!!
 
-Mehr Spass und ein Haufen Tweets zur Keynote auf [k94n.com](https://k94n.com/a-loosely-coupled-front-end). 
+Mehr Spass und ein Haufen Tweets zur Keynote auf [k94n.com](https://k94n.com/a-loosely-coupled-front-end).
 
 ![](/assets/images/a-loosely-coupled-front-end/wad.001.png)
