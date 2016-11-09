@@ -76,18 +76,22 @@ Mit einem eigenen Script können beliebige Befehle ausgefürt werden.
 
 Unsere Entscheidung ist auf das Start-Script gefallen, da es keine Supervisor-Wissen vorraussetzt und für unsere Ansprüche ausreichend ist.
 
-Das Start-Script `start.sh`:
+Das Start-Script `docker-entrypoint.sh`:
 
 ```
 #!/bin/bash
 
-# Start cron.
+# Exit immediately if a command exits with a non-zero status.
+set -e
+
+# Start cron
 cron
 
-# Call the original container command.
-php-fpm
+# Execute CMD
+exec "$@"
 ```
 
+Es ist wichtig, dass der Command mit `exec` aufgerufen wird. Nur so erhält der Prozess die richtigen Signale von Docker.
 Dieses Script muss anschließend in den Container kopiert werden.
 
 Das fertige Dockerfile sieht folgendermaßen aus:
@@ -103,15 +107,17 @@ COPY laravel-scheduler /etc/cron.d/
 RUN chmod 0644 /etc/cron.d/laravel-scheduler
 
 # Copy the start script.
-COPY start.sh /usr/local/bin/
-RUN chmod +x /usr/local/bin/start.sh
+COPY docker-entrypoint.sh /usr/local/bin/
 
-# Start php-fpm and cron.
-CMD ["start.sh"]
+# Set the entrypoint.
+ENTRYPOINT ["docker-entrypoint.sh"]
+
+# Start the service.
+CMD ["php-fpm"]
 ```
 
 ## Fazit
 
 Um Cron-Jobs in Docker-Containern laufen zu lassen, muss `cron` im Container installiert und ausgeführt werden.
 
-Dazu muss das `Dockerfile` des jeweiligen Containers angepasst werden. Ein eigenes Start-Script startet den Cron-Dienst und ruft danach den ursprünglichen Befehl des Docker-Images auf.
+Dazu muss das `Dockerfile` des jeweiligen Containers angepasst werden. Ein eigenes Start-Script startet den Cron-Dienst und führt danach den ursprünglichen Befehl des Docker-Images aus.
