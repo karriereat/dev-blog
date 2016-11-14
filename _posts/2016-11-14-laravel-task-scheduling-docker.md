@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Laravel Task Scheduling mit Docker"
-date: 2016-11-08 17:40:07
+date: 2016-11-14 10:00:00
 author: jakob
 tags: [laravel, php, docker]
 excerpt: Task Scheduling für Laravel in einem Docker-Container einrichten, wie kann diese Aufgabe möglichst einfach umgesetzt werden?
