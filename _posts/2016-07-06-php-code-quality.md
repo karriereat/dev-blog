@@ -39,6 +39,7 @@ indent_size = 4
 Aber was helfen all diese Richtlinien, wenn sich keiner daran hält? Aus diesem Grund haben wir ein Code-Quality-Package erstellt, welches dem Entwickler hilft, sich an die Vorgaben zu halten.
 
 Dieses kann einfach als 'require-dev' zu einem Package hinzugefügt werden und enthält folgende Funktionen, welche als Composer-Script ausgeführt werden können:
+
 * Ausführen der Tests (und Erstellung eines Code Coverage Reports).
 * Überprüfung des Code Style (PSR-2).
 * Automatisches beheben von Code Style Fehlern.
