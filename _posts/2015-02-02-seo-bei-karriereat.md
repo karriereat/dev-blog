@@ -3,6 +3,7 @@ layout: post
 title: "SEO Denken bei karriere.at"
 date: 2015-02-02 09:49:25
 author: mori
+tags: [seo]
 ---
 Wenn wir bei <a href="http://www.karriere.at/">karriere.at</a> an SEO denken, dann denken wir an 3 Bereiche, die wir optimieren können und müssen. Es reicht nicht aus, sich ausschließlich auf einen Bereich zu konzentrieren. Es müssen alle 3 Bereiche optimierbar sein und auch ständig optimiert werden.<!--more-->...
 
