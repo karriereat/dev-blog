@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Unser PHP Code Quality Package ist jetzt auf GitHub!"
-date: 2017-01-26 13:00:00
+date: 2017-01-30 13:00:00
 author: jakob
 tags: [php, code-quality, open-source, github]
 ---
