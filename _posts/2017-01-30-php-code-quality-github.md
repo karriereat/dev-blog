@@ -6,7 +6,7 @@ author: jakob
 tags: [php, code-quality, open-source, github]
 ---
 
-Wie in unserem Blog-Eintrag [Code Quality matters](/a/php-code-quality/) beschrieben,
+Wie in unserem Blog-Eintrag [Code Quality matters](/a/php-code-quality) beschrieben,
 haben wir vor ein paar Monaten ein Package für die Sicherstellung unserer
 PHP-Code-Quality erstellt.
 
