@@ -30,13 +30,13 @@ Grund dafür war eine MySQL-Tabelle, die bereits auf über 40 GB angewachsen war
 
 Nach einer kurzen Recherche machten wir folgende Lösungen ausfindig:
 
-* __Größere Festplatte kaufen.__ ❎
+* __Größere Festplatte kaufen.__ ❎   
 Das wäre die einfachste Lösung. Aber was, wenn nach einem Jahr noch eine Festplatte her muss? Wie teilt man ein 40 GB MySQL-Tabelle auf zwei Festplatten auf?
 Aufgrund dieser Fragen, und natürlich auch wegen der zusätzlich Kosten, haben wir uns gegen diese Lösung entschieden.
-* __Daten vor dem Speichern manuell komprimieren.__ ❎
+* __Daten vor dem Speichern manuell komprimieren.__ ❎   
 Unser nächster Ansatz war es, die Daten vor dem Speichern in die Tabelle manuell zu komprimieren. Etwa mit  der PHP-Funktion `gzcompress()`.
 Der Nachteil dabei: erhöhte Code-Komplexität durch das Komprimieren / Dekodieren und die höhere CPU-Last.
-* __InnoDB Row-Format-Kompression aktivieren.__ ✅
+* __InnoDB Row-Format-Kompression aktivieren.__ ✅   
 Seit MySQL 5.7.7 ¹ ist `Barracuda` das Standardformat für InnoDB-Tabellen. Das `Barracuda`-Format unterstützt (im Gegenzug zum alten `Antelope`-Format) Kompression.
 Da wir eine aktuelle MySQL-Version einsetzen, konnten wir das Kompressions-Feature ohne Probleme nutzen. Aber auch bei dieser Lösung ist natürlich mit einer erhöhten CPU-Last zu rechnen.
 
