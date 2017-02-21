@@ -23,7 +23,7 @@ Du bist noch nicht neugierig genug! Unsere besten Klick-Bait-Überschriften:
 
 Wir betreiben bei einem externen Cloud-Hoster eine Applikation, welche viele Daten sammelt und speichert.
 
-Der Speicherplatz in unserer Virtuellen Maschine ist auf 80 GB begrenzt, vor etwa einer Woche wurde der Platz auf unserer SSD knapp.
+Der Speicherplatz in unserer virtuellen Maschine ist auf 80 GB begrenzt, vor etwa einer Woche wurde der Platz auf unserer SSD knapp.
 Grund dafür war eine MySQL-Tabelle, die bereits auf über 40 GB angewachsen war.
 
 ## Wohin mit den Daten?
@@ -62,7 +62,7 @@ Eine unserer Befürchtungen war, dass das Statement in ein Timeout läuft und di
 
 Das Statement für unsere große Tabelle benötigte 23 Minuten und reduzierte die Tabellengröße um 76% auf 9,7 GB. 😍
 
-Das machte sich auch in unserem Dashboard deutlich bemerkbar:
+Das machte sich auch auf unserem Dashboard deutlich bemerkbar:
 
 ![](/assets/images/mysql-table-compression/grafana-fs-2.png)
 
