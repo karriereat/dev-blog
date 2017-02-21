@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MySQL InnoDB Row Format Compression, oder wie wir ..."
-date: 2017-02-30 13:00:00
+date: 2017-02-20 13:00:00
 author: jakob
 tags: [mysql, compression]
 excerpt: ... die Größe unserer MySQL-Datenbank um mehr als 70% reduzieren konnten.
