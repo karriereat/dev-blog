@@ -8,7 +8,7 @@ tags: [events]
 
 Eine Bootsfahrt und Graffiti sprühen scheinen ersten Moment nicht zusammenzupassen. Jedoch nicht im Linzer Hafen. 
 Dieser ist für seine riesigen Atemberaubenden Graffitis berühmt.
-Letzten Dienstag haben wir uns mit einer Bootsfahrt durch die Linzer Hafenbecken zeigen lassen. Im Anschluss 
+Letzten Dienstag haben wir uns diese mit einer Bootsfahrt durch die Linzer Hafenbecken zeigen lassen. Im Anschluss 
 durften wir nach einer kurzen Graffiti Einschulung selber Hand anlegen.
 
 ![](/assets/images/sprayen-im-linzer-hafen/police-officer.jpg)
