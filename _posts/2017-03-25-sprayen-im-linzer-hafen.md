@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sprayen im Linzer Hafen"
-date: 2016-03-24 14:28:00
+date: 2016-03-28 16:00:00
 author: fred
 tags: [events]
 ---
