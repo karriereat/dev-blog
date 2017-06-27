@@ -17,13 +17,13 @@ Unser erster Lösungsansatz für dieses Problem war, den Branchnamen mit in die 
 funktioniert, allerdings war das ständige Ändern der Versionen ziemlich lästig. 
 
 Als Entwickler versucht man natürlich, solche Aufgaben möglichst vollständig zu automatisieren: Genau das haben wir mit
-unserem [Gradle Plugin](https://plugins.gradle.org/plugin/at.karriere.version) auch geschafft. Die manuellen Schritte um
-die Version zu erhöhen, wurden fast vollständig automatisiert, was uns den Arbeitsalltag um einiges leichter macht.
+unserem [Gradle Plugin](https://plugins.gradle.org/plugin/at.karriere.version) auch geschafft. Die manuellen Schritte zur
+Erhöhung der Version, wurden fast vollständig automatisiert, was uns den Arbeitsalltag um einiges leichter macht.
 
 ![Increase Version Task](/assets/images/gradle-version/increase-version.png)
 
 Da das Plugin auch für andere Entwickler möglichst gut zu verwenden sein soll, haben wir es auf 
-[Github](https://github.com/karriereat/gradle-version-plugin) veröffentlicht. Dort habt ihr die Möglichkeit, uns zu 
-helfen das Plugin für möglichst viele verschiedene Projekt-Setups tauglich zu machen. Neben der Dokumentation findet ihr 
-dort auch den Sourcecode, könnt Issues einbringen und contributen.
+[Github](https://github.com/karriereat/gradle-version-plugin) veröffentlicht. Wir würden uns freuen, wenn ihr uns dabei 
+helft, das Plugin für möglichst viele verschiedene Projekt-Setups tauglich zu machen. Neben der Dokumentation findet ihr 
+dort auch den Sourcecode, könnt Issues einbringen und Pull-Requests öffnen.
 
