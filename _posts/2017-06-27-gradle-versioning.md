@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gradle Versionierung mit dem karriere.at Version Plugin"
-date: 2017-06-21 10:00:00
+date: 2017-06-27 13:00:00
 author: markusv
 tags: [gradle, versioning, github, open-source, java]
 ---
