@@ -28,7 +28,7 @@ Bleibt nur noch, das Groovy-Skript als eigene Datei über den Serverpfad, oder a
 
 Als erstes suchen wir alle Vorgänge, die mittels *derives* beim aktuellen Vorgang verlinkt sind. Handelt es sich um einem Epic, so wird der Issue Key zwischengespeichert. Alle anderen Vorgänge werden auf deren Statuskategorie geprüft und der jeweilige Counter hochgezählt.
 
-```
+~~~groovy
 import com.atlassian.jira.component.ComponentAccessor
 import com.atlassian.jira.issue.search.SearchProvider
 import com.atlassian.jira.jql.parser.JqlQueryParser
@@ -51,11 +51,11 @@ results.getIssues().each {documentIssue ->
         statusCounter[documentIssue.getStatus().getStatusCategory().getName()] += 1
     } // end if
 } // end each
-```
+~~~
 
 Epics verhalten sich etwas anders, deswegen fragen wir darin liegende Tickets noch einmal über eine eigene JQL-Query ab. Dazu nutzen wir die Issue Keys von der ersten Abfrage. Auch hier aktualisieren wir die Counter wieder.
 
-```
+~~~groovy
 if (epicslist.size() > 0) {
     query                        = jqlQueryParser.parseQuery("issueFunction in issuesInEpics ('issuekey IN (" + epicslist.join(', ') + ")')")
     results                      = searchProvider.search(query, user, PagerFilter.getUnlimitedFilter())
@@ -64,11 +64,11 @@ if (epicslist.size() > 0) {
         statusCounter[documentIssue.getStatus().getStatusCategory().getName()] += 1
     } // end each
 } // end if
-```
+~~~
 
 Nun, da wir die benötigten Werte ermittelt haben, wird das ganze noch ausgegeben. Der Fortschrittsbalken wird mittels CSS-Inline-Grid erzeugt, sodass er zum Look-and-Feel von JIRA passt.
 
-```
+~~~groovy
 /*
 return nothing of there are no linked issue
 */
@@ -153,7 +153,7 @@ def returnstring = """
 </span>
 """
 return returnstring.replaceAll(/    /, '');
-```
+~~~
 
 Zum Schluss müssen wir noch definieren, wo der Balken angezeigt werden soll. Dazu wird das Custom Field einfach bei den verwendeten Bildschirmmasken eingehängt.
 
@@ -164,20 +164,3 @@ Auch die Anzeige in Kanban-Boards und in Suchergebnissen funktioniert:
 
 ![JIRA-Kanban-Board mit eingeblendeter Fortschrittsanzeige](/assets/images/jira-progressbar/jira-kanbanboard.png)
 ![Suchergebnis in JIRA mit eingeblendeter Fortschrittsanzeige](/assets/images/jira-progressbar/jira-searchresult.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
