@@ -6,7 +6,7 @@ author: michael
 tags: [kanban, process, agile, jira]
 ---
 
-Während die Entwicklungsteams bei karriere.at ihr operatives Tagesgeschäft in ihren jeweiligen JIRA-Projekten verwalten, so besteht aus Managementsicht doch auch die Notwendigkeit einen Überblick über länger laufende Initiativen und Projekte zu haben, speziell wenn teamübergreifende Tätigkeiten notwendig sind. Das Produkt [Portfolio](https://www.atlassian.com/software/jira/portfolio) von Atlassian ist für unsere Zwecke leider nicht geeignet, da es sehr starken Fokus auf Velicity-Werte und Sprints legt.
+Während die Entwicklungsteams bei karriere.at ihr operatives Tagesgeschäft in ihren jeweiligen JIRA-Projekten verwalten, so besteht aus Managementsicht doch auch die Notwendigkeit einen Überblick über länger laufende Initiativen und Projekte zu haben, speziell wenn teamübergreifende Tätigkeiten notwendig sind. Das Produkt [Portfolio](https://www.atlassian.com/software/jira/portfolio) von Atlassian ist für unsere Zwecke leider nicht geeignet, da es sehr starken Fokus auf Velocity-Werte und Sprints legt.
 
 Wir haben uns daher entschlossen ein eigenes JIRA-Projekt anzulegen und dort größere Vorhaben als Vorgangstyp *Initiative* abzubilden. Die einzelnen Tickets der Teams, wie *Epics*, *User Stories*, *Defects* oder *Spikes* werden dann mit der jeweiligen Initiative über die Verlinkungsart "Abgeleitet" verknüpft.
 
@@ -18,7 +18,7 @@ Zunächst benötigt man ein Custom Field vom Typ *Scripted Field*:
 
 ![Select-a-Field-Type-Modal](/assets/images/jira-progressbar/jira-addfield.png)
 
-Im Anschluss wechselt man zu *Add-ons→Script Fields* und bearbeitet das gerade erzeugte Feld. Wichtig ist, das die Ausgabe auf *HTML* geändert wird.
+Im Anschluss wechselt man zu *Add-ons→Script Fields* und bearbeitet das gerade erzeugte Feld. Wichtig ist, dass die Ausgabe auf *HTML* geändert wird.
 
 ![Konfigurationsdialog für Scripted Field](/assets/images/jira-progressbar/jira-configurefield.png)
 
@@ -26,7 +26,7 @@ Im Anschluss wechselt man zu *Add-ons→Script Fields* und bearbeitet das gerade
 
 Bleibt nur noch, das Groovy-Skript als eigene Datei über den Serverpfad, oder als Inline-Script zu definieren.
 
-Als erstes suchen wir alle Vorgänge, die mittels *derives* beim aktuellen Vorgang verlinkt sind. Handelt es sich um einem Epic, so wird der Issue Key zwischengespeichert. Alle anderen Vorgänge werden auf deren Statuskategorie geprüft und der jeweilige Counter hochgezählt.
+Als erstes suchen wir alle Vorgänge, die mittels *derives* beim aktuellen Vorgang verlinkt sind. Handelt es sich um einen Epic, so wird der Issue Key zwischengespeichert. Alle anderen Vorgänge werden auf deren Statuskategorie geprüft und der jeweilige Counter hochgezählt.
 
 ~~~groovy
 import com.atlassian.jira.component.ComponentAccessor
@@ -70,7 +70,7 @@ Nun, da wir die benötigten Werte ermittelt haben, wird das ganze noch ausgegebe
 
 ~~~groovy
 /*
-return nothing of there are no linked issue
+return nothing if there are no linked issue
 */
 if (statusCounter['New'] == 0 && statusCounter['In Progress'] == 0 && statusCounter['Complete'] == 0) {
     return null;
