@@ -11,7 +11,7 @@ kramdown:
 logo: false
 paginate: 30
 baseurl: ''
-domain_name: 'http://dev.karriere.at'
+domain_name: 'https://dev.karriere.at'
 google_analytics: 'UA-237751-17'
 gems:
   - jekyll-paginate
@@ -19,7 +19,7 @@ gems:
   - jekyll-feed
 
 # Details for the RSS feed generator
-url: 'http://dev.karriere.at'
+url: 'https://dev.karriere.at'
 author: 'karriere.at'
 
 # authors object

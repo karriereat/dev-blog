@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://dev.karriere.at/sitemap.xml
+Sitemap: https://dev.karriere.at/sitemap.xml
