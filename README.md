@@ -1,29 +1,23 @@
-# karriere.at dev blog
+# karriere.at Dev Blog
 
-- [Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
+[Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
 
-Check your ruby version:
-```sh
-ruby --version
-// should be ruby 2 or higher
-```
+1. Check whether you have Ruby 2.1.0 or higher installed
+    ```bash
+    ruby --version
+    ```
 
-Installs the Bundler gem:
-```
-gem install bundler
-```
+2. Install Bundler
+    ```bash
+    gem install bundler
+    ```
 
-Install jekyll deps
-```sh
-bundle install
-```
+3. Install Jekyll using Bundler
+    ```bash
+    bundle install
+    ```
 
-Run jekyll local
-```sh
-jekyll serve
-```
-
-Run drafts
-```sh
-jekyll serve --drafts
-```
+4. Run your Jekyll site locally
+    ```bash
+    bundle exec jekyll serve
+    ```
