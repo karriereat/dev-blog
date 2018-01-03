@@ -1,8 +1,8 @@
 name: dev-blog
-description: "[karriere.at](http://www.karriere.at) developer blog. Blogging about hacking and science."
+description: "[karriere.at](https://www.karriere.at) developer blog. Blogging about hacking and science."
 meta_description: karriere.at developer blog. Blogging about hacking and science.
 
-permalink:          /a/:title # Post permalink
+permalink:          /a/:title
 timezone:           Europe/Vienna
 
 markdown: kramdown
@@ -13,7 +13,7 @@ paginate: 30
 baseurl: ''
 domain_name: 'https://dev.karriere.at'
 google_analytics: 'UA-237751-17'
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
@@ -22,7 +22,7 @@ gems:
 url: 'https://dev.karriere.at'
 author: 'karriere.at'
 
-# authors object
+# Authors object
 authors:
   fichtl:
     name: Fichtl
@@ -60,7 +60,7 @@ authors:
     bio: "Jürgen ist Master. Was er als Praktikant bei karriere.at begann, zeigt er heute im Dev-Team in höchster Perfektion. Musik ist seine Passion, Zocken ebenso. Sein freundliches Wesen erfreut nicht nur Mitmenschen und Kollegen, er ist auch ein großer Tierfreund, der zwei Chinchillas und zwei Katzen sein Eigen nennt."
   manu:
     name: Manu
-    bio: "Manu ist Front-End Developer bei karriere.at und schreibt auch privat regelmäßig auf [manu.ninja](https://manu.ninja/) über Front-End Development, Games und Digital Art.<br>[@manuelwieser](https://twitter.com/manuelwieser)"
+    bio: "Manu ist Lead Developer bei karriere.at und schreibt auch privat regelmäßig auf [manu.ninja](https://manu.ninja/) über Front-End Development, Games und Digital Art.<br>[@manuelwieser](https://twitter.com/manuelwieser)"
     twitter: manuelwieser
   eva:
     name: Eva
