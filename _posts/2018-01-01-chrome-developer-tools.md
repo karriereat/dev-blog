@@ -8,7 +8,15 @@ tags: [debugging, javascript, performance, tooling]
 
 Die Chrome DevTools werden von Entwicklern täglich genutzt. Die meisten Entwickler beschränken sich allerdings auf ein paar Features, die ihnen sehr vertraut sind -- etwa um CSS-Styles zu verändern oder JavaScript-Fehler zu überprüfen. Dabei lohnt der Blick über den Tellerrand, um neue hilfreiche Tools zu entdecken. 
 
-In diesem Post möchte ich einige Features vorstellen, die ihr vielleicht noch nicht kanntet, aber ich bei meiner Arbeit sehr praktisch finde.
+In diesem Post möchte ich 5 Features vorstellen, die ihr vielleicht noch nicht kanntet, aber ich bei meiner Arbeit sehr praktisch finde:
+
+1. [Browser verlangsamen](#browser-verlangsamen)
+1. [Events überprüfen](#events-überprüfen)
+1. [Progressive Web Apps überprüfen](#progressive-web-apps-überprüfen)
+1. [7+1 Arten von Breakpoints](#71-arten-von-breakpoints)
+1. [Ausführung (Anzahl und Zeit) messen](#ausführung-anzahl-und-zeit-messen)
+
+
 
 ## Browser verlangsamen
 
@@ -35,16 +43,21 @@ Ein schwacher Rechner lässt sich ebenfalls simulieren. Das Dropdown im Panel _P
 ![](/assets/images/chrome-developer-tools/chrome-developer-tools-throttle-cpu.png)
 
 
+
 ## Events überprüfen
 
 1. Event Listeners auf DOM-Elementen
 2. Event Listeners auf Objekten: `getEventListeners(object)`
 3. Events überwachen: `monitorEvents(object[, events])`
 
+
+
 ## Progressive Web Apps überprüfen
 
 1. Manifest
 2. Audits
+
+
 
 ## 7+1 Arten von Breakpoints
 
@@ -56,6 +69,8 @@ Ein schwacher Rechner lässt sich ebenfalls simulieren. Das Dropdown im Panel _P
 * Exception
 * Funktionen
 * `debugger;`
+
+
 
 ## Ausführung (Anzahl und Zeit) messen
 
