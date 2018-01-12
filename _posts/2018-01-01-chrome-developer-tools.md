@@ -46,9 +46,31 @@ Ein schwacher Rechner lässt sich ebenfalls simulieren. Das Dropdown im Panel _P
 
 ## Events überprüfen
 
-1. Event Listeners auf DOM-Elementen
-2. Event Listeners auf Objekten: `getEventListeners(object)`
-3. Events überwachen: `monitorEvents(object[, events])`
+Die Chrome DevTools bietet mehrere Möglichkeiten die zahlreichen Events auf modernen Seiten zu überprüfen. Besonders bei unbekannten Codestellen möchte man herausfinden, welche Event Listener auf welchen Elementen gesetzt sind.
+
+### Event Listeners auf DOM-Elementen
+
+Das Panel _Elements_ bietet einen Tab _Event Listeners_ in der Sidebar. Wählt man ein DOM-Element aus, werden alle Event Listener aufgelistet. Zu jedem Event Listener wird die Codezeile angegeben. Außerdem besteht die Möglichkeit, Event Listener vorübergehend zu entfernen.
+
+![](/assets/images/chrome-developer-tools/chrome-developer-tools-events-on-dom-elements.png)
+
+### Event Listeners auf Objekten
+
+Will man sich die Event Listener in der Konsole ausgeben lassen gibt es den Befehl `getEventListeners(object)`. So lassen sich über `getEventListeners($('.c-dropdown-button'))` die gleichen Event Listener wie im vorherigen Beispiel anzeigen.
+
+![](/assets/images/chrome-developer-tools/chrome-developer-tools-get-event-listeners.png)
+
+Der Befehl `$(selector)` ist übrigens ein Alias für [document.querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector).
+
+### Events überwachen
+
+Es lassen sich jedoch nicht nur die Event Listener eines Elements anzeigen. `monitorEvents(object[, events])` bietet die Möglichkeit, alle oder bestimmte Events in der Konsole zu protokollieren.
+
+![](/assets/images/chrome-developer-tools/chrome-developer-tools-monitor-events.png)
+
+Außerdem gibt es vordefinierte Gruppen, um mehrere Events gleichzeitig anzugeben: `mouse`, `key`, `touch` und `control`. `monitorEvents($0, 'mouse')` protokolliert z.B. `mousedown`, `mouseup` und dergleichen.
+ 
+Der Befehl `$0` liefert übrigens das zuletzt ausgewählte DOM-Element oder JavaScript-Objekt.
 
 
 
