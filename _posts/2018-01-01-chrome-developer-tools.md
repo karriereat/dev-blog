@@ -76,8 +76,21 @@ Der Befehl `$0` liefert übrigens das zuletzt ausgewählte DOM-Element oder Java
 
 ## Progressive Web Apps überprüfen
 
-1. Manifest
-2. Audits
+Google möchte [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/) vorantreiben, weshalb sie Tools in ihren Browser integriert haben, die dazu Anreize schaffen sollen. 
+
+### Manifest
+
+Das [Web App Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest) ist ein grundlegender Bestandteil von Progressive Web Apps. Darin lassen sich Einstellungen treffen, die dem System dabei helfen, die eigene Seite wie eine native App wirken zu lassen.
+
+Das Panel _Applications_ beinhaltet einen Tab, der das `manifest.json` validiert und die Einstellungen und Icons übersichtlich anzeigt.
+
+![](/assets/images/chrome-developer-tools/chrome-developer-tools-manifest.png)
+
+### Audits
+
+
+
+![](/assets/images/chrome-developer-tools/chrome-developer-tools-audit.png)
 
 
 
