@@ -6,21 +6,21 @@ author: manu
 tags: [debugging, javascript, performance, tooling]
 ---
 
-Die Chrome DevTools werden von Entwicklern täglich genutzt. Die meisten Entwickler beschränken sich allerdings auf ein paar Features, die ihnen sehr vertraut sind -- etwa um CSS-Styles zu verändern oder JavaScript-Fehler zu überprüfen. Dabei lohnt der Blick über den Tellerrand, um neue hilfreiche Tools zu entdecken. 
+Die Chrome Developer Tools werden von Entwicklern täglich genutzt. Die meisten Entwickler beschränken sich allerdings auf ein paar Features, die ihnen sehr vertraut sind -- etwa um CSS-Styles zu verändern oder JavaScript-Fehler zu überprüfen. Dabei lohnt der Blick über den Tellerrand, um neue hilfreiche Tools zu entdecken. 
 
 In diesem Post möchte ich 5 Features vorstellen, die ihr vielleicht noch nicht kanntet, aber ich bei meiner Arbeit sehr praktisch finde:
 
 1. [Browser verlangsamen](#browser-verlangsamen)
 1. [Events überprüfen](#events-überprüfen)
 1. [Progressive Web Apps überprüfen](#progressive-web-apps-überprüfen)
-1. [7+1 Arten von Breakpoints](#71-arten-von-breakpoints)
+1. [7 Arten von Breakpoints](#7-arten-von-breakpoints)
 1. [Ausführung (Anzahl und Zeit) messen](#ausführung-anzahl-und-zeit-messen)
 
 
 
 ## Browser verlangsamen
 
-Oft möchte man die Zeit verlangsamen, um genau beobachten zu können, was eigentlich auf der eigenen App oder Seite passiert. Diese Möglichkeit bieten die Chrome DevTools in drei verschiedenen Panels: _Animations_, _Network_ und _Performance_.
+Oft möchte man die Zeit verlangsamen, um genau beobachten zu können, was eigentlich auf der eigenen App oder Seite passiert. Diese Möglichkeit bieten die Chrome Developer Tools in drei verschiedenen Panels: _Animations_, _Network_ und _Performance_.
 
 ### Animationen verlangsamen
 
@@ -46,7 +46,7 @@ Ein schwacher Rechner lässt sich ebenfalls simulieren. Das Dropdown im Panel _P
 
 ## Events überprüfen
 
-Die Chrome DevTools bietet mehrere Möglichkeiten die zahlreichen Events auf modernen Seiten zu überprüfen. Besonders bei unbekannten Codestellen möchte man herausfinden, welche Event Listener auf welchen Elementen gesetzt sind.
+Die Chrome Developer Tools bietet mehrere Möglichkeiten die zahlreichen Events auf modernen Seiten zu überprüfen. Besonders bei unbekannten Codestellen möchte man herausfinden, welche Event Listener auf welchen Elementen gesetzt sind.
 
 ### Event Listeners auf DOM-Elementen
 
@@ -90,22 +90,38 @@ Das Panel _Applications_ beinhaltet einen Tab, der das `manifest.json` validiert
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse/) ist ein Tool, um die Qualität von Webseiten zu verbessern. Es liefert eine Wertung zu Accessibility, Best Practices, Performance und Progressive Web Apps -- inklusive Vorschlägen, wie man die Wertung verbessern kann. 
 
-Lighthouse hat als Chrome Extension begonnen und ist jetzt direkt in die Chrome Dev Tools integriert.
+Lighthouse hat als Chrome Extension begonnen und ist jetzt direkt in die Chrome Developer Tools integriert.
 
 ![](/assets/images/chrome-developer-tools/chrome-developer-tools-audit.png)
 
 
 
-## 7+1 Arten von Breakpoints
+## 7 Arten von Breakpoints
 
-* Codezeilen
-* Codezeilen mit Bedingungen
+Die Chrome Developer Tools bieten 7 Arten von Breakpoints an, um ausgeführten Code zu pausieren:
+
+* Codezeile
+* Codezeile mit Bedingungen
 * DOM
-* XHR
+* XHR/Fetch
 * Event Listener
 * Exception
-* Funktionen
+* Funktion
+
+In der [offiziellen Dokumentation](https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints) werden alle Varianten ausführlich beschrieben, hier möchte ich jedoch 3 spezielle Möglichkeiten beleuchten.
+
+### XHR/Fetch-Breakpoints setzen
+
+![](/assets/images/chrome-developer-tools/chrome-developer-tools-xhr-fetch-breakpoints.png)
+
+### Event-Listener-Breakpoints setzen
+
+![](/assets/images/chrome-developer-tools/chrome-developer-tools-event-listener-breakpoints.png)
+
+### Breakpoints im Code setzen
+
 * `debugger;`
+* `debug(function);`
 
 
 
@@ -114,3 +130,7 @@ Lighthouse hat als Chrome Extension begonnen und ist jetzt direkt in die Chrome 
 * `console.count(label)`
 * `console.time([label])` und `console.timeEnd()`
 * `console.timeStamp([label])`
+
+![](/assets/images/chrome-developer-tools/chrome-developer-tools-measuring-executions.png)
+
+![](/assets/images/chrome-developer-tools/chrome-developer-tools-performance-timestamp.png)
