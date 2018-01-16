@@ -88,7 +88,9 @@ Das Panel _Applications_ beinhaltet einen Tab, der das `manifest.json` validiert
 
 ### Audits
 
+[Lighthouse](https://developers.google.com/web/tools/lighthouse/) ist ein Tool, um die Qualität von Webseiten zu verbessern. Es liefert eine Wertung zu Accessibility, Best Practices, Performance und Progressive Web Apps -- inklusive Vorschlägen, wie man die Wertung verbessern kann. 
 
+Lighthouse hat als Chrome Extension begonnen und ist jetzt direkt in die Chrome Dev Tools integriert.
 
 ![](/assets/images/chrome-developer-tools/chrome-developer-tools-audit.png)
 
