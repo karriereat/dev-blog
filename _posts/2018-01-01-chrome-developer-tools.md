@@ -101,7 +101,7 @@ Lighthouse hat als Chrome Extension begonnen und ist jetzt direkt in die Chrome 
 Die Chrome Developer Tools bieten 7 Arten von Breakpoints an, um ausgeführten Code zu pausieren:
 
 * Codezeile
-* Codezeile mit Bedingungen
+* Codezeile mit Bedingung
 * DOM
 * XHR/Fetch
 * Event Listener
@@ -112,16 +112,21 @@ In der [offiziellen Dokumentation](https://developers.google.com/web/tools/chrom
 
 ### XHR/Fetch-Breakpoints setzen
 
+Im Panel _Sources_, in der rechten Sidebar, befindet sich der Punkt _XHR/fetch Breakpoints._ Darin lassen sich URLs angeben, bei deren Aufruf die Ausführung gestoppt werden soll. So kann bei unbekanntem Code schnell herausgefunden werden, welche Funktion die Anfrage schickt.
+
 ![](/assets/images/chrome-developer-tools/chrome-developer-tools-xhr-fetch-breakpoints.png)
 
 ### Event-Listener-Breakpoints setzen
+
+Es lassen sich auch Events oder Gruppen an Events auswählen, bei deren Auftreten der Browser die Ausführung stoppt. So kann unter anderem herausgefunden werden, ob und wieviele Listener auf globale Events wie `scroll` und `resize` hören.
 
 ![](/assets/images/chrome-developer-tools/chrome-developer-tools-event-listener-breakpoints.png)
 
 ### Breakpoints im Code setzen
 
-* `debugger;`
-* `debug(function);`
+Breakpoints lassen sich nicht nur in den Chrome Developer Tools selbst setzen, sondern auch im Code. Fügt man den Befehl `debugger;` im eigenen Code ein, so stoppt der Browser die Ausführung in dieser Zeile.
+
+Solltest du dich ertappen, `debugger;` oft in die erste Zeile einer Funktion zu schreiben, ist `debug(function);` eine gute Alternative. Dem Befehl übergibt man einen Funktionsnamen, bei deren Aufruf der Browser stoppen soll.
 
 
 
