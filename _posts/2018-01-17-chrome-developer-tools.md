@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 Features der Chrome Developer Tools, die du unbedingt verwenden solltest!"
-date: 2018-01-01
+date: 2018-01-17
 author: manu
 tags: [debugging, javascript, performance, tooling]
 ---
@@ -124,18 +124,28 @@ Es lassen sich auch Events oder Gruppen an Events auswählen, bei deren Auftrete
 
 ### Breakpoints im Code setzen
 
-Breakpoints lassen sich nicht nur in den Chrome Developer Tools selbst setzen, sondern auch im Code. Fügt man den Befehl `debugger;` im eigenen Code ein, so stoppt der Browser die Ausführung in dieser Zeile.
+Breakpoints lassen sich nicht nur in den Chrome Developer Tools selbst setzen, sondern auch im Code. Fügt man den Befehl `debugger` im eigenen Code ein, so stoppt der Browser die Ausführung in dieser Zeile.
 
-Solltest du dich ertappen, `debugger;` oft in die erste Zeile einer Funktion zu schreiben, ist `debug(function);` eine gute Alternative. Dem Befehl übergibt man einen Funktionsnamen, bei deren Aufruf der Browser stoppen soll.
+Solltest du dich ertappen, `debugger` oft in die erste Zeile einer Funktion zu schreiben, ist `debug(function)` eine gute Alternative. Dem Befehl übergibt man einen Funktionsnamen, bei deren Aufruf der Browser stoppen soll.
 
 
 
 ## Ausführung (Anzahl und Zeit) messen
 
-* `console.count(label)`
-* `console.time([label])` und `console.timeEnd()`
-* `console.timeStamp([label])`
+Mit den Chrome Developer Tools kann auch gezählt werden, wie oft eine Zeile aufgerufen wird, und messen, wie lange ein Code-Fragment bei der Ausführung braucht.
+
+### Ausführungszeit messen
+
+Um die Ausführungszeit zu messen gibt es die Befehle `console.time([label])` und `console.timeEnd([label])`. Die Befehle können ein optionales Label entgegennehmen, um Messungen zu unterscheiden. Nach Aufruf von `console.timeEnd()` wird die Ausführungszeit in die Konsole geschrieben.
 
 ![](/assets/images/chrome-developer-tools/chrome-developer-tools-measuring-executions.png)
+
+### Ausführungsanzahl messen
+
+Mit `console.count([label])` lässt sich zusätzlich die Anzahl der Aufrufe mitprotokollieren. So kann beispielsweise überprüft werden, ob eine Funktion zu oft aufgerufen wird. 
+
+### Punkte in der Timeline markieren
+
+Der Befehl `console.timeStamp([label])` aus dem vorherigen Beispiel setzt eine Markierung in der Timeline im Panel _Performance_. Das hilft bei der Auffindung der betroffenen Stellen.
 
 ![](/assets/images/chrome-developer-tools/chrome-developer-tools-performance-timestamp.png)
