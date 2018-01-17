@@ -867,7 +867,8 @@ body:not(.post-template) .post-title {
 }
 
 /* Keep images centred and within the bounds of the post-width */
-.post-content img {
+.post-content img,
+.post-content video {
     display: block;
     max-width: 100%;
     height: auto;
@@ -1802,6 +1803,10 @@ body:not(.post-template) .post-title {
 /* We need to add display:inline in order to align the '>>' of the 'read more' link */
 .post-excerpt p {
 	display:inline;
+}
+
+.post-content p code {
+    white-space: nowrap;
 }
 
 /* ==========================================================================
