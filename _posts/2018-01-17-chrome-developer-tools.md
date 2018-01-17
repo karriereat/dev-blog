@@ -6,9 +6,9 @@ author: manu
 tags: [debugging, javascript, performance, tooling]
 ---
 
-Die Chrome Developer Tools werden von Entwicklern täglich genutzt. Die meisten Entwickler beschränken sich allerdings auf ein paar Features, die ihnen sehr vertraut sind -- etwa um CSS-Styles zu verändern oder JavaScript-Fehler zu überprüfen. Dabei lohnt der Blick über den Tellerrand, um neue hilfreiche Tools zu entdecken. 
+Die Chrome Developer Tools werden von Entwicklern täglich genutzt. Die meisten Entwickler beschränken sich allerdings auf ein paar Features, die ihnen sehr vertraut sind -- etwa um CSS-Styles zu verändern oder JavaScript-Fehler zu überprüfen. Dabei lohnt sich der Blick über den Tellerrand, um neue hilfreiche Tools zu entdecken. 
 
-In diesem Post möchte ich 5 Features vorstellen, die ihr vielleicht noch nicht kanntet, aber ich bei meiner Arbeit sehr praktisch finde:
+In diesem Post möchte ich 5 Features vorstellen, die ihr vielleicht noch nicht kennt, aber ich bei meiner Arbeit sehr praktisch finde:
 
 1. [Browser verlangsamen](#browser-verlangsamen)
 1. [Events überprüfen](#events-überprüfen)
