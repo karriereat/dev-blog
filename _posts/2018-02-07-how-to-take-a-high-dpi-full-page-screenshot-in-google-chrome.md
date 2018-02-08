@@ -1,0 +1,81 @@
+---
+layout: post
+title: "How to take a high-DPI full page screenshot in Google Chrome"
+date: 2018-02-07
+author: manu
+tags: [debugging, javascript, performance, tooling]
+---
+
+Whether you want to ask for design feedback from your colleagues, inspect changes between versions, use them in your presentation slides or your marketing folders: There are quite a lot of use-cases for screenshots of your web page. This blog post shows you how to take high-DPI full page screenshot right inside of Google Chrome. 
+
+You don't need to install additional tools or have ever used the Chrome Developer Tools before. This post is specifically written for marketing and product managers, but designers and developers might find it useful as well.
+
+<p>When you’ve read the post you’ll be able to take screenhots like the following screenshot of a company profile, which has 4080&nbsp;×&nbsp;9744&nbsp;px in its full version:</p>
+
+![](/assets/images/how-to-take-a-high-dpi-full-page-screenshot-in-google-chrome/high-dpi-screenshot-result.jpg)
+
+
+
+## Overview
+
+There are three steps, which are simple and easy to remember as soon as you've done them once:
+
+1. Access the device toolbar in the Chrome Developer Tools
+2. Adjust the viewport size and device pixel ratio
+3. Capture a full size screenshot
+
+![](/assets/images/how-to-take-a-high-dpi-full-page-screenshot-in-google-chrome/high-dpi-screenshot-steps.jpg)
+
+
+
+## Access the device toolbar in the Chrome Developer Tools
+
+The fastest way to open the Chrome Developer Tools is by using a keyboard shortcut:
+
+* `Ctrl` + `Shift` + `I` on Windows
+* `Command` + `Option` + `I` on Mac OS
+
+But you can also click the Chrome menu at the top-right of your browser window, then select _Tools > Developer Tools._ 
+
+![](/assets/images/how-to-take-a-high-dpi-full-page-screenshot-in-google-chrome/high-dpi-screenshot-access-chrome-developer-tools.png)
+
+The Chrome menu is probably in your local language, but you should be able to figure out what menu items are identical to _Tools > Developer Tools._ 😉
+ 
+Once you're in the Chrome Developer Tools you can click the _Toggle device toolbar_ button, which is shown in blue in the following screenshot:
+
+![](/assets/images/how-to-take-a-high-dpi-full-page-screenshot-in-google-chrome/high-dpi-screenshot-step-1.png)
+
+Your page will now be shown in an extra window and the device toolbar appears at the top of your viewport.
+
+
+
+## Adjust the viewport size and device pixel ratio
+
+If you've never opened the device toolbar before, the DPR setting is probably hidden.
+
+![](/assets/images/how-to-take-a-high-dpi-full-page-screenshot-in-google-chrome/high-dpi-screenshot-step-2-device-pixel-ratio-missing.png)
+
+To add this dropdown you'll have to click the three vertical dots at the top-right of the device toolbar. In the menu you can then select _Add device pixel ratio_.
+
+![](/assets/images/how-to-take-a-high-dpi-full-page-screenshot-in-google-chrome/high-dpi-screenshot-step-2-add-device-pixel-ratio.png)
+
+If you have all the controls you can set the following in the device toolbar:
+
+![](/assets/images/how-to-take-a-high-dpi-full-page-screenshot-in-google-chrome/high-dpi-screenshot-step-2.png)
+
+* Viewport controls: Responsive
+* Viewport size: Choose whatever width you'd like. The height isn't important, just choose any value.
+* Device pixel ratio: Highest
+
+
+
+## Capture a full size screenshot
+
+
+
+three vertical dots
+![](/assets/images/how-to-take-a-high-dpi-full-page-screenshot-in-google-chrome/high-dpi-screenshot-step-3.png)
+
+4080 × 9744
+![](/assets/images/how-to-take-a-high-dpi-full-page-screenshot-in-google-chrome/high-dpi-screenshot-result.jpg)
+![](/assets/images/how-to-take-a-high-dpi-full-page-screenshot-in-google-chrome/high-dpi-screenshot-teamwork.png)
