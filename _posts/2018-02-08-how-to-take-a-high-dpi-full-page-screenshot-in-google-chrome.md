@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to take a high-DPI full page screenshot in Google Chrome"
-date: 2018-02-07
+date: 2018-02-08
 author: manu
 tags: [debugging, javascript, performance, tooling]
 ---
@@ -55,7 +55,7 @@ If you've never opened the device toolbar before, the DPR setting is probably hi
 
 ![](/assets/images/how-to-take-a-high-dpi-full-page-screenshot-in-google-chrome/high-dpi-screenshot-step-2-device-pixel-ratio-missing.png)
 
-To add this dropdown you'll have to click the three vertical dots at the top-right of the device toolbar. In the menu you can then select _Add device pixel ratio_.
+To add this dropdown you'll have to click the three vertical dots at the top-right of the device toolbar. In the menu you can then select _Add device pixel ratio._
 
 ![](/assets/images/how-to-take-a-high-dpi-full-page-screenshot-in-google-chrome/high-dpi-screenshot-step-2-add-device-pixel-ratio.png)
 
@@ -71,11 +71,16 @@ If you have all the controls you can set the following in the device toolbar:
 
 ## Capture a full size screenshot
 
+Once you've setup the viewport you'll have to click the three vertical dots again and select _Capture full size screenshot._
 
-
-three vertical dots
 ![](/assets/images/how-to-take-a-high-dpi-full-page-screenshot-in-google-chrome/high-dpi-screenshot-step-3.png)
 
-4080 × 9744
+Please wait while the browser takes a full page screenshot, when it's done it will automatically start a download of your image. 
+
+<p>The resulting image in my example has 4080&nbsp;×&nbsp;9744&nbsp;px in its full version:</p>
+
 ![](/assets/images/how-to-take-a-high-dpi-full-page-screenshot-in-google-chrome/high-dpi-screenshot-result.jpg)
+
+If I zoom in on the cards in the center of the page I can see, that the image has a high resolution. It should be sufficient for print as well.
+
 ![](/assets/images/how-to-take-a-high-dpi-full-page-screenshot-in-google-chrome/high-dpi-screenshot-teamwork.png)
