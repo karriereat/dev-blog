@@ -4,6 +4,7 @@ title: "How to take a high-DPI full page screenshot in Google Chrome"
 date: 2018-02-08
 author: manu
 tags: [debugging, javascript, performance, tooling]
+lang: en
 ---
 
 Whether you want to ask for design feedback from your colleagues, inspect changes between versions, use them in your presentation slides or your marketing folders: There are quite a lot of use-cases for screenshots of your web page. This blog post shows you how to take high-DPI full page screenshot right inside of Google Chrome. 

@@ -25,79 +25,100 @@ author: 'karriere.at'
 authors:
   fichtl:
     name: Fichtl
-    bio: "Der bekennende Ursprungsinnviertler Fichtl ist einer der Brains von karriere.at. Wenn er nicht gerade an der Software herumschraubt, sind Bücher und Filme seine Leidenschaft. Legobauen seine Obsession."
+    bio-de: "Der bekennende Ursprungsinnviertler Fichtl ist einer der Brains von karriere.at. Wenn er nicht gerade an der Software herumschraubt, sind Bücher und Filme seine Leidenschaft. Legobauen seine Obsession."
+    bio-en: "TODO"
   alex:
     name: Alex
-    bio: "Dev-Ops Alex studierte an der FH Hagenberg. Bei karriere.at absolvierte er sein Berufspraktikum und beschäftigt sich nun damit wie unsere Entwickler und Server arbeiten. In der Freizeit wird mit Freundin um die Welt gereist. Sogar dann sind Bücher, Kaffee und sein MacBook Air ständige Begleiter."
+    bio-de: "Dev-Ops Alex studierte an der FH Hagenberg. Bei karriere.at absolvierte er sein Berufspraktikum und beschäftigt sich nun damit wie unsere Entwickler und Server arbeiten. In der Freizeit wird mit Freundin um die Welt gereist. Sogar dann sind Bücher, Kaffee und sein MacBook Air ständige Begleiter."
+    bio-en: "TODO"
   mori:
     name: Mori
-    bio: "Christian folgt stets seinem Bauchgefühl, und das hat ihn in das Entwicklungsteam von karriere.at geführt. Neben seinem eBusiness Studium versucht er zusätzlich seinen Tag mit Sport zu füllen. Sein Motto: Think big, win the world."
+    bio-de: "Christian folgt stets seinem Bauchgefühl, und das hat ihn in das Entwicklungsteam von karriere.at geführt. Neben seinem eBusiness Studium versucht er zusätzlich seinen Tag mit Sport zu füllen. Sein Motto: Think big, win the world."
+    bio-en: "TODO"
   fred:
     name: Fred
-    bio: "Fred macht sein Hobby gerade zum Beruf. Nicht nur bei karriere.at sondern auch in seiner Freizeit bastelt unser Lehrling an Software. Tut er das nicht, produziert der Süd-Niederösterreicher oft Youtube-Videos oder widmet sich dem Elektro-Swing von Parov Stelar."
+    bio-de: "Fred macht sein Hobby gerade zum Beruf. Nicht nur bei karriere.at sondern auch in seiner Freizeit bastelt unser Lehrling an Software. Tut er das nicht, produziert der Süd-Niederösterreicher oft Youtube-Videos oder widmet sich dem Elektro-Swing von Parov Stelar."
+    bio-en: "TODO"
   markus:
     name: Markus
-    bio: "Markus ist Web-Developer Marke Eigenbau. Soll heißen: Er hat sich seine Entwickler-Skills alle selbst beigebracht. Privat wird gekocht, mit Bögen geschossen und gegeocached."
+    bio-de: "Markus ist Web-Developer Marke Eigenbau. Soll heißen: Er hat sich seine Entwickler-Skills alle selbst beigebracht. Privat wird gekocht, mit Bögen geschossen und gegeocached."
+    bio-en: "TODO"
   lenzi:
     name: Lenzi
-    bio: "Lenzi ist ein ganz seltsamer Programmierer: Er trinkt keinen Kaffee, musiziert auf ganz analogen Instrumenten, in der Pause greift er schon mal zum Apfel statt zur Zigarette und er geht sogar gern hinaus ans Tageslicht (um beispielsweise Beachvolleyball zu spielen)."
+    bio-de: "Lenzi ist ein ganz seltsamer Programmierer: Er trinkt keinen Kaffee, musiziert auf ganz analogen Instrumenten, in der Pause greift er schon mal zum Apfel statt zur Zigarette und er geht sogar gern hinaus ans Tageslicht (um beispielsweise Beachvolleyball zu spielen)."
+    bio-en: "TODO"
   guenther:
     name: Günther
-    bio: "Günther hat schon am Amiga 500 seine ersten BASIC-Programme entwickelt. Ein paar Jahr(zehnt)e später macht er das auch beruflich - in Java. Bei karriere.at kann er seinen Hang zum Optimieren und Perfektionieren voll ausleben. Die nötige Kraft (zum Tippen und Maus bewegen) und Ausdauer (für das lange Sitzen) sammelt er im Fitnesstudio und auf ausgedehnten Mountainbike-Ausflügen"
+    bio-de: "Günther hat schon am Amiga 500 seine ersten BASIC-Programme entwickelt. Ein paar Jahr(zehnt)e später macht er das auch beruflich - in Java. Bei karriere.at kann er seinen Hang zum Optimieren und Perfektionieren voll ausleben. Die nötige Kraft (zum Tippen und Maus bewegen) und Ausdauer (für das lange Sitzen) sammelt er im Fitnesstudio und auf ausgedehnten Mountainbike-Ausflügen"
+    bio-en: "TODO"
   gustl:
     name: Gustl
     twitter: pixelution
-    bio: "Gustl ist Linzer mit Tiroler Wurzeln. Gustl ist Papa, Firmengründer und Webworker. Bei karriere.at ist der Multimedia-Freak Teil des Developer-Teams und bringt etwas Tiroler Flair in das grüne Office an der Donau."
+    bio-de: "Gustl ist Linzer mit Tiroler Wurzeln. Gustl ist Papa, Firmengründer und Webworker. Bei karriere.at ist der Multimedia-Freak Teil des Developer-Teams und bringt etwas Tiroler Flair in das grüne Office an der Donau."
+    bio-en: "TODO"
   paul:
     name: Paul
-    bio: "Bewegungshungrig, abenteuerlustig, spontan: Drei Eigenschaften, die Developer Paul perfekt umreißen. Er hat wirklich immer etwas vor im Fußballverein (ATSV Stein), bei der Freiwilligen Feuerwehr, im Sportverein seiner Heimatgemeinde. Zum Relaxen werden Serien geschaut und Technik-News gelesen."
+    bio-de: "Bewegungshungrig, abenteuerlustig, spontan: Drei Eigenschaften, die Developer Paul perfekt umreißen. Er hat wirklich immer etwas vor im Fußballverein (ATSV Stein), bei der Freiwilligen Feuerwehr, im Sportverein seiner Heimatgemeinde. Zum Relaxen werden Serien geschaut und Technik-News gelesen."
+    bio-en: "TODO"
   wolfgang:
     name: Wolfgang
-    bio: "Wolfgang ist Product Owner für Core Services und interne Software bei karriere.at. Noch Fragen? Also: Er sorgt dafür, dass die Karriereköpfe mit karriere.at bestmöglich arbeiten können und alle Systeme wie am Schnürchen laufen. Privat: Familie, Tochter, Katzen, Gitarre, Bücher und Metal!"
+    bio-de: "Wolfgang ist Product Owner für Core Services und interne Software bei karriere.at. Noch Fragen? Also: Er sorgt dafür, dass die Karriereköpfe mit karriere.at bestmöglich arbeiten können und alle Systeme wie am Schnürchen laufen. Privat: Familie, Tochter, Katzen, Gitarre, Bücher und Metal!"
+    bio-en: "TODO"
   juergen:
     name: Jürgen
-    bio: "Jürgen ist Master. Was er als Praktikant bei karriere.at begann, zeigt er heute im Dev-Team in höchster Perfektion. Musik ist seine Passion, Zocken ebenso. Sein freundliches Wesen erfreut nicht nur Mitmenschen und Kollegen, er ist auch ein großer Tierfreund, der zwei Chinchillas und zwei Katzen sein Eigen nennt."
+    bio-de: "Jürgen ist Master. Was er als Praktikant bei karriere.at begann, zeigt er heute im Dev-Team in höchster Perfektion. Musik ist seine Passion, Zocken ebenso. Sein freundliches Wesen erfreut nicht nur Mitmenschen und Kollegen, er ist auch ein großer Tierfreund, der zwei Chinchillas und zwei Katzen sein Eigen nennt."
+    bio-en: "TODO"
   manu:
     name: Manuel
-    bio: "Manuel ist Lead Web Developer bei karriere.at, Lehrbeauftragter an der FH Hagenberg und schreibt auch privat regelmäßig auf [manu.ninja](https://manu.ninja/) über Front-End Development, Games und Digital Art.<br>[@manuelwieser](https://twitter.com/manuelwieser)"
+    bio-de: "Manuel ist Lead Web Developer bei karriere.at, Lehrbeauftragter an der FH Hagenberg und schreibt auch privat regelmäßig auf [manu.ninja](https://manu.ninja/) über Front-End Development, Games und Digital Art.<br>[@manuelwieser](https://twitter.com/manuelwieser)"
+    bio-en: "Manuel is Lead Web Developer at karriere.at, lecturer at the University of Applied Sciences Upper Austria and writes about Front-End Development, Games und Digital Art on his personal blog [manu.ninja](https://manu.ninja/).<br>[@manuelwieser](https://twitter.com/manuelwieser)"
     twitter: manuelwieser
-  eva:
-    name: Eva
   anita:
     name: Anita
-    bio: "Leidenschaft spielt in Anitas Leben eine große Rolle. Ihr Motto: Alles, was man mit Liebe macht, wird auch gut: Ob Design, Kochen oder Gemüse-Züchten. Lesen - natürlich in Papierform! - gehört zur Entspannung dazu."
+    bio-de: "Leidenschaft spielt in Anitas Leben eine große Rolle. Ihr Motto: Alles, was man mit Liebe macht, wird auch gut: Ob Design, Kochen oder Gemüse-Züchten. Lesen - natürlich in Papierform! - gehört zur Entspannung dazu."
+    bio-en: "TODO"
   michael:
     name: Michael
-    bio: "Wenn Michael gefragt wird, was er beruflich macht, sagt er \"Scrum Master\". Wenn er dann in ein fragendes Gesicht blickt, sagt er \"Agile Coach\". Wenn dann die Stirnrunzeln bei seinem Gegenüber noch größer werden, wechselt er das Thema und redet über das Motorradfahren, Tai Chi oder Süßigkeiten."
+    bio-de: "Wenn Michael gefragt wird, was er beruflich macht, sagt er \"Scrum Master\". Wenn er dann in ein fragendes Gesicht blickt, sagt er \"Agile Coach\". Wenn dann die Stirnrunzeln bei seinem Gegenüber noch größer werden, wechselt er das Thema und redet über das Motorradfahren, Tai Chi oder Süßigkeiten."
+    bio-en: "TODO"
   sharon:
     name: Sharon
-    bio: "Ausdauer zählt zu Sharons größten Stärken. Und die braucht sie auch. Denn bevor bei karriere.at neue Codes zur Anwendung kommen, werden sie von der Gitarre und Tenor-Blockflöte spielenden Entspannungs-Häklerin auf Herz und Nieren geprüft. Steht Sport auf dem Programm, ist ebenfalls Ausdauer gefragt beim Klettern, Radfahren und Schwimmen."
+    bio-de: "Ausdauer zählt zu Sharons größten Stärken. Und die braucht sie auch. Denn bevor bei karriere.at neue Codes zur Anwendung kommen, werden sie von der Gitarre und Tenor-Blockflöte spielenden Entspannungs-Häklerin auf Herz und Nieren geprüft. Steht Sport auf dem Programm, ist ebenfalls Ausdauer gefragt beim Klettern, Radfahren und Schwimmen."
+    bio-en: "TODO"
   klemens:
     name: "Klemens 🚬"
+    bio-de: "Frontend Devloper bei karriere.at. Loves javascript, beer and coffee. I'm on [Twitter](http://twitter.com/thisisgordon) and [GitHub](https://github.com/k9ordon)"
+    bio-en: "TODO"
     twitter: thisisgordon
-    bio: "Frontend Devloper bei karriere.at. Loves javascript, beer and coffee. I'm on [Twitter](http://twitter.com/thisisgordon) and [GitHub](https://github.com/k9ordon)"
   jakob:
     name: Jakob
-    bio: "Wer Jakob beschreiben will, muss auf Klischees verzichten. Er liebt die Bewegung (Snowboarden, Wandern, Slacklinen), steht auf Neurofunk, trinkt keinen Kaffee und fährt Supermoto. Der Mühlviertler ist aber Hacker mit Leib und Seele: bei karriere.at als Web Developer, privat als White Hat Hacker."
     twitter: jay_linski
+    bio-de: "Wer Jakob beschreiben will, muss auf Klischees verzichten. Er liebt die Bewegung (Snowboarden, Wandern, Slacklinen), steht auf Neurofunk, trinkt keinen Kaffee und fährt Supermoto. Der Mühlviertler ist aber Hacker mit Leib und Seele: bei karriere.at als Web Developer, privat als White Hat Hacker."
+    bio-en: "TODO"
   markusv:
     name: Markus V.
-    bio: "Markus ist Software Developer bei [jobs.at](https://www.jobs.at), einem Spin-off von karriere.at. Was ist bei ihm privat so los? 👨‍👩‍👧‍👦🐕🏃‍🏋️🥦☕🍷. Erreichen kann man ihn auf [Twitter](https://twitter.com/mvieghofer)."
+    bio-de: "Markus ist Software Developer bei [jobs.at](https://www.jobs.at), einem Spin-off von karriere.at. Was ist bei ihm privat so los? 👨‍👩‍👧‍👦🐕🏃‍🏋️🥦☕🍷. Erreichen kann man ihn auf [Twitter](https://twitter.com/mvieghofer)."
+    bio-en: "TODO"
     twitter: mvieghofer
   hannes:
     name: Hannes
+    bio-de: "Johannes sorgt dafür, dass das Backend von karriere.at perfekt läuft, nämlich als PHP Web Developer. Dass man bei dieser Aufgabe Ausgleich braucht, liegt auf der Hand: Der leidenschaftliche Papa verbringt seine Zeit am liebsten mit Tochter und Ehefrau aber auch beim Laufen und im Sportverein."
+    bio-en: "TODO"
     twitter: fetzi_io
-    bio: "Johannes sorgt dafür, dass das Backend von karriere.at perfekt läuft, nämlich als PHP Web Developer. Dass man bei dieser Aufgabe Ausgleich braucht, liegt auf der Hand: Der leidenschaftliche Papa verbringt seine Zeit am liebsten mit Tochter und Ehefrau aber auch beim Laufen und im Sportverein."
   christinaf:
     name: Christina Feilmayr
-    bio: "Data Scientist Christina beschreibt sich selbst als leidenschaftliche Analystin, die in Konzepten denkt und gern Neues ausprobiert. Je innovativer, desto besser. In ihrem Leben draußen beschäftigt sich die „Bubenmama“ mit „Bubendings“: Autos, Werkzeugbänken und Duplo-Lego. Sonst: Sport, Laufen, Foodblogs und Kochen!"
+    bio-de: "Data Scientist Christina beschreibt sich selbst als leidenschaftliche Analystin, die in Konzepten denkt und gern Neues ausprobiert. Je innovativer, desto besser. In ihrem Leben draußen beschäftigt sich die „Bubenmama“ mit „Bubendings“: Autos, Werkzeugbänken und Duplo-Lego. Sonst: Sport, Laufen, Foodblogs und Kochen!"
+    bio-en: "TODO"
   dominik:
     name: Dominik
-    bio: "Dominik beschreibt sich selbst als ruhig, hilfsbereit und relaxed - also stressresistent bis in die letzte Faser. Als Ausgleich zu seinem Job Web Developer entspannt er bei Strategie-Games, trifft sich mit Freunden oder chillt auf Festivals oder beim Fortgehen."
+    bio-de: "Dominik beschreibt sich selbst als ruhig, hilfsbereit und relaxed - also stressresistent bis in die letzte Faser. Als Ausgleich zu seinem Job Web Developer entspannt er bei Strategie-Games, trifft sich mit Freunden oder chillt auf Festivals oder beim Fortgehen."
+    bio-en: "TODO"
   plengauer:
     name: Philipp Lengauer
     twitter: F1PSii
-    bio: "Offen, ehrlich, genau, freundlich und engagiert: Philipp – seines Zeichens Webentwickler bei karriere.at. Auch in der Freizeit gibt er sich keine Zeit für Stillstand. Sport, Motorradfahren und Freunde sind ihm da das Wichtigste."
+    bio-de: "Offen, ehrlich, genau, freundlich und engagiert: Philipp – seines Zeichens Webentwickler bei karriere.at. Auch in der Freizeit gibt er sich keine Zeit für Stillstand. Sport, Motorradfahren und Freunde sind ihm da das Wichtigste."
+    bio-en: "TODO"
   stefank:
     name: Stefan K.
-    bio: "Stefan ist Softwareentwickler bei karriere.at – und jetzt nach dem Studium nebenbei noch Häusl-Renovierer. Dass ihm neben Arbeit, Haus und Garten auch noch genügend Zeit für Freundin, Haustiere, Musik und PS4-Zocken bleibt, spricht für sein Selbstmanagement – Chapeau!"
+    bio-de: "Stefan ist Softwareentwickler bei karriere.at – und jetzt nach dem Studium nebenbei noch Häusl-Renovierer. Dass ihm neben Arbeit, Haus und Garten auch noch genügend Zeit für Freundin, Haustiere, Musik und PS4-Zocken bleibt, spricht für sein Selbstmanagement – Chapeau!"
+    bio-en: "TODO"
