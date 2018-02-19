@@ -6,12 +6,8 @@ author: jakob
 tags: [debugging, javascript, php, standards]
 ---
 
-In today's modern web applications, communication between frontend (browser) and backend (PHP)
-often happens via JSON APIs.   
-Besides strings, integers and booleans, also dates have to be transferred between
-the client and the server.
-
-
+In today's modern web applications, communication between frontend (browser) and backend (PHP) often happens via JSON APIs.   
+Alongside strings, integers and booleans, also dates have to be transferred between the client and the server.
 
 ## Ways to transfer dates in JSON
 
@@ -70,14 +66,13 @@ console.log(date.getFullYear()); // 2018
 
 #### Pros
 
-* Human readable
+* Human-readable
 * Actually a date format
 
 #### Cons
 
 * You can't rely on the correct implementation of the standard.   
   You can read more about the gotchas in the next section.
-
 
 ## ISO 8601 browser support
 
@@ -123,11 +118,12 @@ echo date(DateTime::ATOM);
 
 ### Are you kidding me?
 
-No, PHP returns a different ISO 8601 format (both valid according to standard) depending on whether you are using `'c'` or `DateTime::ISO8601`.
+No, PHP returns a different ISO 8601 format (both valid according to standard) depending on whether 
+you are using `'c'` or `DateTime::ISO8601`.
 
 This tiny little difference has a huge impact: 
 
-Edge and Safari fail to parse ISO8601 dates if the timezone is not separated with a `:`.
+Edge and Safari fail to parse ISO 8601 dates if the timezone is not separated with a `:`.
 
 So how do libraries like [Carbon](https://github.com/briannesbitt/Carbon) (PHP) solve this problem?
 
