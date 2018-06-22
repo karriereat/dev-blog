@@ -26,7 +26,7 @@ To evaluate the test we therefore have to track three events:
 2. A visitor viewing version B
 3. A visitor clicking the `Call to action` button.
 
-The conversion event (3) is a basic [Google Analytics Event](https://support.google.com/analytics/answer/1033068), made up of a __category__, __action__ and optional __label__ component. Their values depend on how you want to manage your events in Google Analytics and are entirely up to you. 
+The conversion event (3) is a basic Google Analytics [Event](https://support.google.com/analytics/answer/1033068), made up of a __category__, __action__ and optional __label__ component. Their values depend on how you want to manage your events in Google Analytics and are entirely up to you. 
 
 In the example A/B test each component has a value of the same name:
 
@@ -50,7 +50,7 @@ Category | `ab-test`
 Action | `test-name`
 Label | `version-b`
 
-This solution works reliably, however in this article I want to propose another way, and it is called __virtual pageviews__. A virtual pageview is like a real pageview, but the URL is made up, hence virtual. 
+This solution works reliably, however in this article I want to propose another approach: __virtual pageviews__. A virtual pageview is like a real pageview, but the URL is made up, hence virtual. 
 
 In the example A/B test the pageview URLs are as follows:
 
@@ -61,6 +61,14 @@ Version A | `/virtual/A`
 Version B | `/virtual/B`
 
 This means that for each request two pageviews are send to Google Analytics: the original pageview of `/google-analytics-ab-testing` and, depending on the version that is served to the user, either `/virtual/A` or `/virtual/B`. 
+
+Why virtual pageviews? I feel it makes talking about the A/B test easier, as you would normally use phrases like 
+
+> How many visitors viewed the red landing page?
+ 
+as opposed to:
+ 
+> How many events in the 'A/B test' category with a 'summer campaign' action and the 'red landing page' label have been tracked?
 
 <small>
 Beware, that the virtual pageviews are collected additionally to the normal pageview, so your visits will get "inflated". For this and many other reasons you should create a new view for all of your A/B tests and add a [filter](https://support.google.com/analytics/answer/1033162?hl=en) to exclude virtual pageviews (`/virtual/A`) in your original view.
