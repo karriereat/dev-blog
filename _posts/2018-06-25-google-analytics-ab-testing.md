@@ -7,7 +7,9 @@ tags: [analytics, process, performance, testing, tooling]
 lang: en
 ---
 
-A/B testing allows you to continually improve your product's user experience or various sales/marketing KPI's, as long as your goals are well-defined and you have a clear hypothesis. This article does not tell you why you should do A/B testing, but focuses on how to implement tracking its results using JavaScript and Google Analytics.
+A/B testing allows you to continually improve your product's user experience or various sales/marketing KPIs, as long as your goals are well-defined and you have a clear hypothesis. This article does not tell you why you should do A/B testing, but focuses on how to implement tracking its results using JavaScript and Google Analytics.
+
+![](/assets/images/google-analytics-ab-testing/analytics-chart-data-cliché-stock-photo.jpg) 
 
 The article is written for developers, marketing and product managers. If you are not a developer, feel free to skip the coding part and only read the first and third sections!
 
