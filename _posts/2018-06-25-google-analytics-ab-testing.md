@@ -36,7 +36,7 @@ Category | `Category`
 Action | `Action`
 Label | `Label` 
 
-You can send also events for the visitor viewing version A (1) or B (2). We did so for [karriere.at](https://www.karriere.at/) in the past, and it looked like this:
+You can send also events for the visitor viewing version A (1) or B (2). We did so for _karriere.at_ in the past, and it looked like this:
 
 Component | Value
 - | - 
@@ -100,7 +100,11 @@ You can immediately test the pageview by opening your browser's developer tools 
 
 ![](/assets/images/google-analytics-ab-testing/network-tab-pageview-request.png)
 
-In this example the visitor is assigned a version randomly, which is then stored via `localStorage` on the client. You can do the same on the server with cookies of course, depending on your needs -- you might for example choose to segmentize users based on their IDs.
+In this example the visitor is assigned a version randomly, which is then stored via `localStorage` on the client. 
+
+<small>
+You can do the same on the server with cookies of course, depending on your needs -- you might for example choose to segmentize users based on their IDs.
+</small>
 
 ```js
 function getVersion() {
@@ -143,13 +147,38 @@ function sendConversionEvent() {
 
 ## 3. Google Analytics Report
 
-Setting up Google Analytics
+You can start to setup the A/B test report in Google Analytics simultaneously to the tracking implementation, or afterwards. However, if the implementation is already done you can check if the pageviews and events have been correctly collected by Google Analytics.
+
+To check the pageviews you can open up any content report (even real-time, if you just finished implementation and the data hasn't been processed yet, which can take up to a few hours) and search for `virtual`. This will show you all virtual pageviews collected in the specified timeframe:
 
 ![](/assets/images/google-analytics-ab-testing/report-virtual-pageviews.png) 
+
+You can also verify the conversion event by going to the behavoir category and searching for your event (either by category, action or label):
+
 ![](/assets/images/google-analytics-ab-testing/report-events.png) 
 
+For your report you'll now have to create what's called [Segments](https://support.google.com/analytics/answer/3123951) and a [Goal](https://support.google.com/analytics/answer/1012040?hl=en) in Google Analytics.
+
+The goal can be created by going to the admin section and selecting goals in the view column (third column). 
+
 ![](/assets/images/google-analytics-ab-testing/goal-creation-step-1.png)
+
+I have named the goal `Conversion` and set its type to event. You then have to enter the details of the event and save the goal. If you want you can use __Verify this Goal__ to have Google Analytics check for any existing events that match your settings. 
+
 ![](/assets/images/google-analytics-ab-testing/goal-creation-step-2.png)
 
+You can now select any report in Google Analytics and select the newly defined `Conversion` goal and its various metrics. You can for example go to __Channels__ in the __Acquisition__ section and select goal completions. It will show you how often the `Call to action` button has been clicked in total:
+
+![](/assets/images/google-analytics-ab-testing/goal-completions.png)
+
+What you now want to do is get the number of clicks that happened in each version of your A/B test. For this to happen you have to add two segments via the __+ Add Segment__ button. The only thing you have to set, besides giving it a meaningful name, is the page you want to filter:
+
+![](/assets/images/google-analytics-ab-testing/segment-creation.png)
+
+With your report properly set up you should now see the conversions per version. You can save your report for later or export it in various formats to for example send it to your data analyst to check statistical significance (or use one of the many online [calculators](https://vwo.com/ab-split-test-significance-calculator/)).
+
+Of course the date from the example A/B test isn't very exciting, which is why I want to conclude this article with a report of an actual A/B/C test that we've did at _karriere.at_, so you can see what it looks like with real numbers:
 
 ![](/assets/images/google-analytics-ab-testing/report.png)
+
+If you have any further questions or valid feedback, please get in touch!
