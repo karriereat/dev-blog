@@ -85,6 +85,8 @@ The code for the example A/B test is available on [GitHub](https://github.com/ka
 * Send virtual pageviews, tracking the version a client has received
 * Sending conversion events when clicking the `Call to action` button
 
+If you copy the snippet from [analytics.js](https://developers.google.com/analytics/devguides/collection/analyticsjs/) it already sends the normal pageview with `ga('send', 'pageview');`:
+
 ```html
 <script>
     // ...
@@ -93,6 +95,12 @@ The code for the example A/B test is available on [GitHub](https://github.com/ka
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 ```
+
+You can immediately test the pageview by opening your browser's developer tools and heading to the network tab:
+
+![](/assets/images/google-analytics-ab-testing/network-tab-pageview-request.png)
+
+In this example the visitor is assigned a version randomly, which is then stored via `localStorage` on the client. You can do the same on the server with cookies of course, depending on your needs -- you might for example choose to segmentize users based on their IDs.
 
 ```js
 function getVersion() {
@@ -103,6 +111,8 @@ function setVersion(value) {
 }
 ```
 
+When you know the visitor's version you can immediately send a virtual pageview with `ga('send', ...);`:
+
 ```js
 function sendVirtualPageview(version) {
     ga('send', {
@@ -112,6 +122,10 @@ function sendVirtualPageview(version) {
     // ga('send', 'pageview',`/${this.version}`)
 }
 ```
+
+![](/assets/images/google-analytics-ab-testing/network-tab-virtual-pageview-request.png) 
+
+The conversion event, which has to be fired when clicking the `Call to action` button, is also sent via `ga('send', ...);`:
 
 ```js
 function sendConversionEvent() {
@@ -125,8 +139,6 @@ function sendConversionEvent() {
 }
 ```
 
-![](/assets/images/google-analytics-ab-testing/network-tab-pageview-request.png) 
-![](/assets/images/google-analytics-ab-testing/network-tab-virtual-pageview-request.png) 
 ![](/assets/images/google-analytics-ab-testing/network-tab-event-request.png) 
 
 ## 3. Google Analytics Report
