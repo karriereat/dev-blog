@@ -61,7 +61,7 @@ Page containing the A/B test | `/google-analytics-ab-testing`
 Version A | `/virtual/A`
 Version B | `/virtual/B`
 
-What does that mean? For each request two pageviews are send to Google Analytics: the original pageview of `/google-analytics-ab-testing` and, depending on the version that was served to the user, either `/virtual/A` or `/virtual/B`. 
+What does that mean? For each request two pageviews are sent to Google Analytics: the original pageview of `/google-analytics-ab-testing` and, depending on the version that was served to the user, either `/virtual/A` or `/virtual/B`. 
 
 Why virtual pageviews? I feel it makes talking about the A/B test easier, as you would normally use phrases like 
 
